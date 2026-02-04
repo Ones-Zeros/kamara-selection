@@ -1,22 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
-  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  font-family: 'Inter', system-ui, -apple-system, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+
+  font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 body {
-  min-width: 320px;
+  margin: 0;
   min-height: 100vh;
-  color: inherit;
+  background-color: #ffffff;
+  color: #2c3e50;
 }
 
-a {
-  color: inherit;
+#root {
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
 }

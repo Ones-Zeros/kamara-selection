@@ -1,0 +1,59 @@
+{
+  "hero": {
+    "title": "Kamara Selection",
+    "subtitle": "Premium edelstenen uit Sri Lanka",
+    "description": "Ontdek de mooiste edelstenen rechtstreeks uit de mijnen van Rathnapura, de legendarische edelsteen hoofdstad van Sri Lanka",
+    "cta": "Verken collectie"
+  },
+  "about": {
+    "title": "Over ons",
+    "description": "We zijn een familiebedrijf in edelstenen met mijnen gelegen in het hart van Rathnapura, Sri Lanka. Bekend als de 'Stad van Edelstenen', produceert Rathnapura al eeuwenlang enkele van 's werelds mooiste edelstenen. Onze expertise omvat generaties, waardoor u verzekerd bent van alleen de hoogste kwaliteit edelstenen.",
+    "heritage": "Rijke erfenis",
+    "heritageDesc": "Generaties edelsteenmijnbouw expertise",
+    "quality": "Premium kwaliteit",
+    "qualityDesc": "Handgeselecteerde edelstenen uit onze eigen mijnen",
+    "authentic": "100% Authentiek",
+    "authenticDesc": "Direct van de bron naar u"
+  },
+  "gemstones": {
+    "title": "Onze edelstenen",
+    "subtitle": "Verken onze exquise collectie Sri Lankaanse edelstenen",
+    "sapphire": {
+      "name": "Blauwe saffier",
+      "description": "Ceylon blauwe saffieren zijn wereldwijd bekend om hun uitzonderlijke kleur en helderheid"
+    },
+    "ruby": {
+      "name": "Robijn",
+      "description": "Zeldzame en kostbare robijnen met dieprode tinten uit het hart van Sri Lanka"
+    },
+    "emerald": {
+      "name": "Smaragd",
+      "description": "Levendige groene smaragden met opmerkelijke schittering en transparantie"
+    },
+    "topaz": {
+      "name": "Gele topaas",
+      "description": "Prachtige gele topaas edelstenen met gouden schittering"
+    },
+    "catseye": {
+      "name": "Kattenoog",
+      "description": "Zeldzaam chrysoberyl kattenoog met onderscheidend chatoyancy-effect"
+    },
+    "alexandrite": {
+      "name": "Alexandriet",
+      "description": "Buitengewone kleurveranderende alexandriet, een van de zeldzaamste edelstenen van de natuur"
+    }
+  },
+  "contact": {
+    "title": "Neem contact op",
+    "description": "Geïnteresseerd in onze edelstenen? Neem contact met ons op om uw wensen te bespreken.",
+    "location": "Locatie",
+    "locationValue": "Rathnapura, Sri Lanka",
+    "email": "E-mail",
+    "emailValue": "info@kamaraselection.com"
+  },
+  "footer": {
+    "copyright": "© 2026 Kamara Selection. Alle rechten voorbehouden.",
+    "tagline": "Premium Sri Lankaanse edelstenen"
+  },
+  "language": "Taal"
+}

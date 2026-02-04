@@ -1,0 +1,59 @@
+{
+  "hero": {
+    "title": "Kamara Selection",
+    "subtitle": "Gemas premium de Sri Lanka",
+    "description": "Descubra las mejores gemas directamente de las minas de Rathnapura, la legendaria capital de gemas de Sri Lanka",
+    "cta": "Explorar colección"
+  },
+  "about": {
+    "title": "Sobre nosotros",
+    "description": "Somos un negocio familiar de gemas con minas ubicadas en el corazón de Rathnapura, Sri Lanka. Conocida como la 'Ciudad de las Gemas', Rathnapura ha estado produciendo algunas de las mejores piedras preciosas del mundo durante siglos. Nuestra experiencia abarca generaciones, asegurando que reciba solo piedras preciosas de la más alta calidad.",
+    "heritage": "Rica herencia",
+    "heritageDesc": "Generaciones de experiencia en minería de gemas",
+    "quality": "Calidad premium",
+    "qualityDesc": "Gemas seleccionadas a mano de nuestras propias minas",
+    "authentic": "100% Auténtico",
+    "authenticDesc": "Directamente de la fuente a usted"
+  },
+  "gemstones": {
+    "title": "Nuestras gemas",
+    "subtitle": "Explore nuestra exquisita colección de gemas de Sri Lanka",
+    "sapphire": {
+      "name": "Zafiro azul",
+      "description": "Los zafiros azules de Ceilán son mundialmente reconocidos por su excepcional color y claridad"
+    },
+    "ruby": {
+      "name": "Rubí",
+      "description": "Rubíes raros y preciosos con tonos rojos profundos del corazón de Sri Lanka"
+    },
+    "emerald": {
+      "name": "Esmeralda",
+      "description": "Esmeraldas verdes vibrantes con brillo y transparencia notables"
+    },
+    "topaz": {
+      "name": "Topacio amarillo",
+      "description": "Impresionantes piedras de topacio amarillo con brillo dorado"
+    },
+    "catseye": {
+      "name": "Ojo de gato",
+      "description": "Raro crisoberilo ojo de gato con efecto chatoyante distintivo"
+    },
+    "alexandrite": {
+      "name": "Alejandrita",
+      "description": "Extraordinaria alejandrita que cambia de color, una de las gemas más raras de la naturaleza"
+    }
+  },
+  "contact": {
+    "title": "Póngase en contacto",
+    "description": "¿Interesado en nuestras gemas? Contáctenos para discutir sus necesidades.",
+    "location": "Ubicación",
+    "locationValue": "Rathnapura, Sri Lanka",
+    "email": "Correo electrónico",
+    "emailValue": "info@kamaraselection.com"
+  },
+  "footer": {
+    "copyright": "© 2026 Kamara Selection. Todos los derechos reservados.",
+    "tagline": "Gemas premium de Sri Lanka"
+  },
+  "language": "Idioma"
+}

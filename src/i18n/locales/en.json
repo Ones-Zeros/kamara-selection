@@ -1,0 +1,59 @@
+{
+  "hero": {
+    "title": "Kamara Selection",
+    "subtitle": "Premium Gemstones from Sri Lanka",
+    "description": "Discover the finest gemstones directly from the mines of Rathnapura, Sri Lanka's legendary gem capital",
+    "cta": "Explore Collection"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are a family-owned gem business with mines located in the heart of Rathnapura, Sri Lanka. Known as the 'City of Gems', Rathnapura has been producing some of the world's finest gemstones for centuries. Our expertise spans generations, ensuring you receive only the highest quality precious stones.",
+    "heritage": "Rich Heritage",
+    "heritageDesc": "Generations of gem mining expertise",
+    "quality": "Premium Quality",
+    "qualityDesc": "Hand-selected gems from our own mines",
+    "authentic": "100% Authentic",
+    "authenticDesc": "Direct from source to you"
+  },
+  "gemstones": {
+    "title": "Our Gemstones",
+    "subtitle": "Explore our exquisite collection of Sri Lankan gemstones",
+    "sapphire": {
+      "name": "Blue Sapphire",
+      "description": "Ceylon blue sapphires are world-renowned for their exceptional color and clarity"
+    },
+    "ruby": {
+      "name": "Ruby",
+      "description": "Rare and precious rubies with deep red hues from the heart of Sri Lanka"
+    },
+    "emerald": {
+      "name": "Emerald",
+      "description": "Vibrant green emeralds with remarkable brilliance and transparency"
+    },
+    "topaz": {
+      "name": "Yellow Topaz",
+      "description": "Stunning yellow topaz gemstones with golden brilliance"
+    },
+    "catseye": {
+      "name": "Cat's Eye",
+      "description": "Rare chrysoberyl cat's eye with distinctive chatoyancy effect"
+    },
+    "alexandrite": {
+      "name": "Alexandrite",
+      "description": "Extraordinary color-changing alexandrite, one of nature's rarest gems"
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "Interested in our gemstones? Contact us to discuss your requirements.",
+    "location": "Location",
+    "locationValue": "Rathnapura, Sri Lanka",
+    "email": "Email",
+    "emailValue": "info@kamaraselection.com"
+  },
+  "footer": {
+    "copyright": "© 2026 Kamara Selection. All rights reserved.",
+    "tagline": "Premium Sri Lankan Gemstones"
+  },
+  "language": "Language"
+}

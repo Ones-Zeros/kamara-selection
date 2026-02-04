@@ -1,0 +1,59 @@
+{
+  "hero": {
+    "title": "Kamara Selection",
+    "subtitle": "Kamienie szlachetne premium ze Sri Lanki",
+    "description": "Odkryj najlepsze kamienie szlachetne bezpośrednio z kopalni w Rathnapurze, legendarnej stolicy kamieni szlachetnych Sri Lanki",
+    "cta": "Przeglądaj kolekcję"
+  },
+  "about": {
+    "title": "O nas",
+    "description": "Jesteśmy rodzinnym przedsiębiorstwem zajmującym się kamieniami szlachetnymi z kopalniami położonymi w sercu Rathnapury, Sri Lanka. Znana jako 'Miasto Kamieni Szlachetnych', Rathnapura od wieków produkuje jedne z najlepszych kamieni szlachetnych na świecie. Nasza wiedza sięga pokoleń, zapewniając, że otrzymasz tylko kamienie szlachetne najwyższej jakości.",
+    "heritage": "Bogate dziedzictwo",
+    "heritageDesc": "Pokolenia doświadczenia w górnictwie kamieni szlachetnych",
+    "quality": "Jakość premium",
+    "qualityDesc": "Ręcznie wybrane kamienie z naszych własnych kopalni",
+    "authentic": "100% Autentyczne",
+    "authenticDesc": "Bezpośrednio ze źródła do Ciebie"
+  },
+  "gemstones": {
+    "title": "Nasze kamienie szlachetne",
+    "subtitle": "Poznaj naszą wykwintną kolekcję kamieni szlachetnych ze Sri Lanki",
+    "sapphire": {
+      "name": "Niebieski szafir",
+      "description": "Cejlońskie niebieskie szafiry są znane na całym świecie ze swojego wyjątkowego koloru i przejrzystości"
+    },
+    "ruby": {
+      "name": "Rubin",
+      "description": "Rzadkie i cenne rubiny z głębokimi czerwonymi odcieniami z serca Sri Lanki"
+    },
+    "emerald": {
+      "name": "Szmaragd",
+      "description": "Żywe zielone szmaragdy o niezwykłym blasku i przezroczystości"
+    },
+    "topaz": {
+      "name": "Żółty topaz",
+      "description": "Oszałamiające żółte topazy o złotym blasku"
+    },
+    "catseye": {
+      "name": "Oko kota",
+      "description": "Rzadkie oko kota chryzoberylu z wyróżniającym się efektem chatoyancy"
+    },
+    "alexandrite": {
+      "name": "Aleksandryt",
+      "description": "Niezwykły aleksandryt zmieniający kolor, jeden z najrzadszych kamieni natury"
+    }
+  },
+  "contact": {
+    "title": "Skontaktuj się",
+    "description": "Zainteresowany naszymi kamieniami szlachetnymi? Skontaktuj się z nami, aby omówić swoje potrzeby.",
+    "location": "Lokalizacja",
+    "locationValue": "Rathnapura, Sri Lanka",
+    "email": "Email",
+    "emailValue": "info@kamaraselection.com"
+  },
+  "footer": {
+    "copyright": "© 2026 Kamara Selection. Wszelkie prawa zastrzeżone.",
+    "tagline": "Kamienie szlachetne premium ze Sri Lanki"
+  },
+  "language": "Język"
+}
