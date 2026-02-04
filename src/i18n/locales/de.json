@@ -1,0 +1,59 @@
+{
+  "hero": {
+    "title": "Kamara Selection",
+    "subtitle": "Premium-Edelsteine aus Sri Lanka",
+    "description": "Entdecken Sie die feinsten Edelsteine direkt aus den Minen von Rathnapura, Sri Lankas legendärer Edelsteinhauptstadt",
+    "cta": "Kollektion erkunden"
+  },
+  "about": {
+    "title": "Über uns",
+    "description": "Wir sind ein familiengeführtes Edelsteinunternehmen mit Minen im Herzen von Rathnapura, Sri Lanka. Bekannt als 'Stadt der Edelsteine', produziert Rathnapura seit Jahrhunderten einige der weltweit feinsten Edelsteine. Unsere Expertise erstreckt sich über Generationen und stellt sicher, dass Sie nur die höchste Qualität an Edelsteinen erhalten.",
+    "heritage": "Reiches Erbe",
+    "heritageDesc": "Generationen von Edelsteinabbau-Expertise",
+    "quality": "Premium-Qualität",
+    "qualityDesc": "Handverlesene Edelsteine aus unseren eigenen Minen",
+    "authentic": "100% Authentisch",
+    "authenticDesc": "Direkt von der Quelle zu Ihnen"
+  },
+  "gemstones": {
+    "title": "Unsere Edelsteine",
+    "subtitle": "Entdecken Sie unsere exquisite Sammlung sri-lankischer Edelsteine",
+    "sapphire": {
+      "name": "Blauer Saphir",
+      "description": "Ceylon blaue Saphire sind weltweit bekannt für ihre außergewöhnliche Farbe und Klarheit"
+    },
+    "ruby": {
+      "name": "Rubin",
+      "description": "Seltene und kostbare Rubine mit tiefroter Farbe aus dem Herzen Sri Lankas"
+    },
+    "emerald": {
+      "name": "Smaragd",
+      "description": "Lebhafte grüne Smaragde mit bemerkenswertem Glanz und Transparenz"
+    },
+    "topaz": {
+      "name": "Gelber Topas",
+      "description": "Atemberaubende gelbe Topas-Edelsteine mit goldenem Glanz"
+    },
+    "catseye": {
+      "name": "Katzenauge",
+      "description": "Seltener Chrysoberyll-Katzenauge mit ausgeprägtem Chatoyance-Effekt"
+    },
+    "alexandrite": {
+      "name": "Alexandrit",
+      "description": "Außergewöhnlicher farbwechselnder Alexandrit, einer der seltensten Edelsteine der Natur"
+    }
+  },
+  "contact": {
+    "title": "Kontakt aufnehmen",
+    "description": "Interessiert an unseren Edelsteinen? Kontaktieren Sie uns, um Ihre Anforderungen zu besprechen.",
+    "location": "Standort",
+    "locationValue": "Rathnapura, Sri Lanka",
+    "email": "E-Mail",
+    "emailValue": "info@kamaraselection.com"
+  },
+  "footer": {
+    "copyright": "© 2026 Kamara Selection. Alle Rechte vorbehalten.",
+    "tagline": "Premium sri-lankische Edelsteine"
+  },
+  "language": "Sprache"
+}
