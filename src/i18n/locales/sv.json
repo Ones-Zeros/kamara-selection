@@ -1,0 +1,59 @@
+{
+  "hero": {
+    "title": "Kamara Selection",
+    "subtitle": "Premium ädelstenar från Sri Lanka",
+    "description": "Upptäck de finaste ädelstenarna direkt från gruvorna i Rathnapura, Sri Lankas legendariska ädelstenshuvudstad",
+    "cta": "Utforska kollektion"
+  },
+  "about": {
+    "title": "Om oss",
+    "description": "Vi är ett familjeägt ädelstensföretag med gruvor belägna i hjärtat av Rathnapura, Sri Lanka. Känd som 'Ädelstenarnas stad', har Rathnapura producerat några av världens finaste ädelstenar i århundraden. Vår expertis sträcker sig över generationer och säkerställer att du endast får ädelstenar av högsta kvalitet.",
+    "heritage": "Rikt arv",
+    "heritageDesc": "Generationer av ädelstensbrytning expertis",
+    "quality": "Premium kvalitet",
+    "qualityDesc": "Handplockade ädelstenar från våra egna gruvor",
+    "authentic": "100% Autentisk",
+    "authenticDesc": "Direkt från källan till dig"
+  },
+  "gemstones": {
+    "title": "Våra ädelstenar",
+    "subtitle": "Utforska vår utsökta samling av sri lankesiska ädelstenar",
+    "sapphire": {
+      "name": "Blå safir",
+      "description": "Ceylon blå safirer är världsberömda för sin exceptionella färg och klarhet"
+    },
+    "ruby": {
+      "name": "Rubin",
+      "description": "Sällsynta och värdefulla rubiner med djupt röda nyanser från Sri Lankas hjärta"
+    },
+    "emerald": {
+      "name": "Smaragd",
+      "description": "Livfulla gröna smaragder med anmärkningsvärd briljans och transparens"
+    },
+    "topaz": {
+      "name": "Gul topas",
+      "description": "Fantastiska gula topas ädelstenar med gyllene briljans"
+    },
+    "catseye": {
+      "name": "Kattöga",
+      "description": "Sällsynt krysoberyll kattöga med distinkt chatoyancy-effekt"
+    },
+    "alexandrite": {
+      "name": "Alexandrit",
+      "description": "Extraordinär färgbytande alexandrit, en av naturens sällsyntaste ädelstenar"
+    }
+  },
+  "contact": {
+    "title": "Kontakta oss",
+    "description": "Intresserad av våra ädelstenar? Kontakta oss för att diskutera dina behov.",
+    "location": "Plats",
+    "locationValue": "Rathnapura, Sri Lanka",
+    "email": "E-post",
+    "emailValue": "info@kamaraselection.com"
+  },
+  "footer": {
+    "copyright": "© 2026 Kamara Selection. Alla rättigheter förbehållna.",
+    "tagline": "Premium sri lankesiska ädelstenar"
+  },
+  "language": "Språk"
+}

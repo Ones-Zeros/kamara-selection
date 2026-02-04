@@ -1,0 +1,59 @@
+{
+  "hero": {
+    "title": "Kamara Selection",
+    "subtitle": "Pierres précieuses premium du Sri Lanka",
+    "description": "Découvrez les plus belles pierres précieuses directement des mines de Rathnapura, la légendaire capitale des gemmes du Sri Lanka",
+    "cta": "Explorer la collection"
+  },
+  "about": {
+    "title": "À propos de nous",
+    "description": "Nous sommes une entreprise familiale de pierres précieuses avec des mines situées au cœur de Rathnapura, au Sri Lanka. Connue sous le nom de 'Ville des gemmes', Rathnapura produit certaines des plus belles pierres précieuses du monde depuis des siècles. Notre expertise s'étend sur plusieurs générations, garantissant que vous ne recevez que des pierres précieuses de la plus haute qualité.",
+    "heritage": "Riche patrimoine",
+    "heritageDesc": "Des générations d'expertise minière",
+    "quality": "Qualité premium",
+    "qualityDesc": "Gemmes sélectionnées à la main de nos propres mines",
+    "authentic": "100% Authentique",
+    "authenticDesc": "Directement de la source à vous"
+  },
+  "gemstones": {
+    "title": "Nos pierres précieuses",
+    "subtitle": "Explorez notre collection exquise de pierres précieuses sri-lankaises",
+    "sapphire": {
+      "name": "Saphir bleu",
+      "description": "Les saphirs bleus de Ceylan sont mondialement réputés pour leur couleur et leur clarté exceptionnelles"
+    },
+    "ruby": {
+      "name": "Rubis",
+      "description": "Rubis rares et précieux aux teintes rouge profond du cœur du Sri Lanka"
+    },
+    "emerald": {
+      "name": "Émeraude",
+      "description": "Émeraudes vertes vibrantes avec un éclat et une transparence remarquables"
+    },
+    "topaz": {
+      "name": "Topaze jaune",
+      "description": "Magnifiques pierres de topaze jaune avec un éclat doré"
+    },
+    "catseye": {
+      "name": "Œil de chat",
+      "description": "Rare œil de chat chrysobéryl avec un effet chatoyant distinctif"
+    },
+    "alexandrite": {
+      "name": "Alexandrite",
+      "description": "Alexandrite extraordinaire qui change de couleur, l'une des gemmes les plus rares de la nature"
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "description": "Intéressé par nos pierres précieuses ? Contactez-nous pour discuter de vos besoins.",
+    "location": "Emplacement",
+    "locationValue": "Rathnapura, Sri Lanka",
+    "email": "Email",
+    "emailValue": "info@kamaraselection.com"
+  },
+  "footer": {
+    "copyright": "© 2026 Kamara Selection. Tous droits réservés.",
+    "tagline": "Pierres précieuses premium du Sri Lanka"
+  },
+  "language": "Langue"
+}
