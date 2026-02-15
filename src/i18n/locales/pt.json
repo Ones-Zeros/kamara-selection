@@ -47,9 +47,15 @@
     "title": "Entre em contato",
     "description": "Interessado em nossas gemas? Contacte-nos para discutir suas necessidades.",
     "location": "Localização",
-    "locationValue": "Rathnapura, Sri Lanka",
+    "locationValue": "26/6, Rajamal Uyana, Beddagana Road, Pitakotte, Sri Lanka.",
+    "phone": "Telefone",
+    "phoneValue": "+94 766684970",
+    "whatsapp": "WhatsApp",
+    "whatsappValue": "+41 763789909",
+    "website": "Site",
+    "websiteValue": "www.kamaraselections.com",
     "email": "Email",
-    "emailValue": "info@kamaraselection.com"
+    "emailValue": "info@kamaraselections.com"
   },
   "footer": {
     "copyright": "© 2026 Kamara Selection. Todos os direitos reservados.",

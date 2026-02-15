@@ -47,9 +47,15 @@
     "title": "Kontakt aufnehmen",
     "description": "Interessiert an unseren Edelsteinen? Kontaktieren Sie uns, um Ihre Anforderungen zu besprechen.",
     "location": "Standort",
-    "locationValue": "Rathnapura, Sri Lanka",
+    "locationValue": "26/6, Rajamal Uyana, Beddagana Road, Pitakotte, Sri Lanka.",
+    "phone": "Telefon",
+    "phoneValue": "+94 766684970",
+    "whatsapp": "WhatsApp",
+    "whatsappValue": "+41 763789909",
+    "website": "Webseite",
+    "websiteValue": "www.kamaraselections.com",
     "email": "E-Mail",
-    "emailValue": "info@kamaraselection.com"
+    "emailValue": "info@kamaraselections.com"
   },
   "footer": {
     "copyright": "© 2026 Kamara Selection. Alle Rechte vorbehalten.",

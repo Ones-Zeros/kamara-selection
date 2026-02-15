@@ -9,27 +9,28 @@ const Gemstones = () => {
       id: 'sapphire',
       name: t('gemstones.sapphire.name'),
       description: t('gemstones.sapphire.description'),
-      color: '#0f52ba',
-      gradient: 'linear-gradient(135deg, #667eea 0%, #0f52ba 100%)'
+      image: '/images/gem-1.jpg',
+      color: '#0f52ba'
     },
     {
       id: 'ruby',
       name: t('gemstones.ruby.name'),
       description: t('gemstones.ruby.description'),
-      color: '#e0115f',
-      gradient: 'linear-gradient(135deg, #f093fb 0%, #e0115f 100%)'
+      image: '/images/gem-2.jpg',
+      color: '#e0115f'
     },
     {
       id: 'emerald',
       name: t('gemstones.emerald.name'),
       description: t('gemstones.emerald.description'),
-      color: '#50c878',
-      gradient: 'linear-gradient(135deg, #4facfe 0%, #50c878 100%)'
+      image: '/images/gem-3.jpg',
+      color: '#50c878'
     },
     {
       id: 'topaz',
       name: t('gemstones.topaz.name'),
       description: t('gemstones.topaz.description'),
+      image: null, 
       color: '#ffcc00',
       gradient: 'linear-gradient(135deg, #ffd89b 0%, #ffcc00 100%)'
     },
@@ -37,6 +38,7 @@ const Gemstones = () => {
       id: 'catseye',
       name: t('gemstones.catseye.name'),
       description: t('gemstones.catseye.description'),
+      image: null,
       color: '#8b7355',
       gradient: 'linear-gradient(135deg, #c9a068 0%, #8b7355 100%)'
     },
@@ -44,6 +46,7 @@ const Gemstones = () => {
       id: 'alexandrite',
       name: t('gemstones.alexandrite.name'),
       description: t('gemstones.alexandrite.description'),
+      image: null,
       color: '#9932cc',
       gradient: 'linear-gradient(135deg, #a8edea 0%, #9932cc 100%)'
     }
@@ -58,10 +61,15 @@ const Gemstones = () => {
         <div className="gemstones-grid">
           {gemstones.map((gem) => (
             <div key={gem.id} className="gemstone-card">
-              <div 
-                className="gemstone-image" 
-                style={{ background: gem.gradient }}
-              >
+              <div className="gemstone-image-container">
+                {gem.image ? (
+                  <img src={gem.image} alt={gem.name} className="gemstone-image" />
+                ) : (
+                  <div 
+                    className="gemstone-image" 
+                    style={{ background: gem.gradient, width: '100%', height: '100%' }}
+                  ></div>
+                )}
                 <div className="gemstone-shine"></div>
               </div>
               <div className="gemstone-info">

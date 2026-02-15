@@ -1,8 +1,9 @@
 .footer {
   padding: 40px 20px;
-  background: #2c3e50;
-  color: white;
+  background: #000;
+  color: var(--text-muted);
   text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-content {
@@ -14,7 +15,7 @@
   font-size: 1.1rem;
   font-weight: 500;
   margin-bottom: 1rem;
-  opacity: 0.9;
+  color: var(--primary-color);
 }
 
 .footer-copyright {
