@@ -9,7 +9,7 @@ const Gemstones = () => {
       id: 'sapphire',
       name: t('gemstones.sapphire.name'),
       description: t('gemstones.sapphire.description'),
-      image: '/images/gem-1.jpg',
+      image: '/images/gem-sapphire.jpg',
       color: '#0f52ba'
     },
     {
@@ -30,25 +30,22 @@ const Gemstones = () => {
       id: 'topaz',
       name: t('gemstones.topaz.name'),
       description: t('gemstones.topaz.description'),
-      image: null, 
-      color: '#ffcc00',
-      gradient: 'linear-gradient(135deg, #ffd89b 0%, #ffcc00 100%)'
+      image: '/images/gem-4.jpg', 
+      color: '#ffcc00'
     },
     {
       id: 'catseye',
       name: t('gemstones.catseye.name'),
       description: t('gemstones.catseye.description'),
-      image: null,
-      color: '#8b7355',
-      gradient: 'linear-gradient(135deg, #c9a068 0%, #8b7355 100%)'
+      image: '/images/gem-5.jpg',
+      color: '#8b7355'
     },
     {
       id: 'alexandrite',
       name: t('gemstones.alexandrite.name'),
       description: t('gemstones.alexandrite.description'),
-      image: null,
-      color: '#9932cc',
-      gradient: 'linear-gradient(135deg, #a8edea 0%, #9932cc 100%)'
+      image: '/images/gem-6.jpg',
+      color: '#9932cc'
     }
   ];
 

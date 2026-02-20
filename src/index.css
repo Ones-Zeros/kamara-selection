@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #d4ac0d;
-  /* Slightly darker gold for better contrast on white */
+  --primary-color: #c0392b;
+  /* Deep Red */
   --secondary-color: #2c3e50;
   --background-dark: #ffffff;
   /* Re-purposed to white for Light Mode */
@@ -69,5 +69,5 @@ button {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #b7950b;
+  background: #a93226;
 }
