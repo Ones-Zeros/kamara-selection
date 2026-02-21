@@ -1,4 +1,10 @@
 import { useTranslation } from 'react-i18next';
+import blueSapphireImage from '../assets/images/BlueSapphireGen.png';
+import rubyImage from '../assets/images/RubyGen.png';
+import emeraldImage from '../assets/images/EmeraldGen.png';
+import topazImage from '../assets/images/YellowTopazGen.png';
+import catseyeImage from '../assets/images/CatseyeGen.png';
+import alexandriteImage from '../assets/images/AlexandriteGen.png';
 import './Gemstones.css';
 
 const Gemstones = () => {
@@ -9,42 +15,42 @@ const Gemstones = () => {
       id: 'sapphire',
       name: t('gemstones.sapphire.name'),
       description: t('gemstones.sapphire.description'),
-      image: '/images/gem-sapphire.jpg',
+      image: blueSapphireImage,
       color: '#0f52ba'
     },
     {
       id: 'ruby',
       name: t('gemstones.ruby.name'),
       description: t('gemstones.ruby.description'),
-      image: '/images/gem-2.jpg',
+      image: rubyImage,
       color: '#e0115f'
     },
     {
       id: 'emerald',
       name: t('gemstones.emerald.name'),
       description: t('gemstones.emerald.description'),
-      image: '/images/gem-3.jpg',
+      image: emeraldImage,
       color: '#50c878'
     },
     {
       id: 'topaz',
       name: t('gemstones.topaz.name'),
       description: t('gemstones.topaz.description'),
-      image: '/images/gem-4.jpg',
+      image: topazImage,
       color: '#ffcc00'
     },
     {
       id: 'catseye',
       name: t('gemstones.catseye.name'),
       description: t('gemstones.catseye.description'),
-      image: '/images/gem-5.jpg',
+      image: catseyeImage,
       color: '#8b7355'
     },
     {
       id: 'alexandrite',
       name: t('gemstones.alexandrite.name'),
       description: t('gemstones.alexandrite.description'),
-      image: '/images/gem-6.jpg',
+      image: alexandriteImage,
       color: '#9932cc'
     }
   ];

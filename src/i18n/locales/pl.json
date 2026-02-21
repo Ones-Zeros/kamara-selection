@@ -1,7 +1,12 @@
 {
   "hero": {
-    "title": "Kamara Selection",
-    "subtitle": "Kamienie szlachetne premium ze Sri Lanki",
+    "title": "Najlepsze kamienie z Cejlonu",
+    "subtitle": "Szafiry, rubiny i rzadkie kamienie prosto z kopalni dla wymagających jubilerów i kolekcjonerów.",
+    "altTitles": [
+      "Najlepsze kamienie z Cejlonu",
+      "Prosto z Rathnapury",
+      "Szafiry, rubiny, rarytasy"
+    ],
     "description": "Odkryj najlepsze kamienie szlachetne bezpośrednio z kopalni w Rathnapurze, legendarnej stolicy kamieni szlachetnych Sri Lanki",
     "cta": "Przeglądaj kolekcję"
   },
@@ -72,8 +77,19 @@
     "emailValue": "info@kamaraselections.com"
   },
   "footer": {
-    "copyright": "© 2026 Kamara Selection. Wszelkie prawa zastrzeżone.",
-    "tagline": "Kamienie szlachetne premium ze Sri Lanki"
+    "copyright": "Kamara Selection. Wszelkie prawa zastrzeżone.",
+    "tagline": "Kamienie szlachetne premium ze Sri Lanki",
+    "blurb": "Niezawodne pozyskiwanie prosto z Rathnapury z przejrzystością, stałą jakością i indywidualną obsługą.",
+    "menuTitle": "Menu",
+    "contactTitle": "Kontakt",
+    "socialTitle": "Media",
+    "links": {
+      "home": "Strona główna",
+      "about": "O nas",
+      "media": "Media",
+      "gemstones": "Kolekcja",
+      "contact": "Kontakt"
+    }
   },
   "language": "Język"
 }

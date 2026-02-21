@@ -1,7 +1,11 @@
 /* ─── Gemstones Section ───────────────────────────────────────── */
 .gemstones {
   padding: 100px 20px;
-  background-color: var(--background-light);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.94) 0%, rgba(248, 251, 254, 0.9) 100%),
+    url('../assets/images/gemstones.jpeg');
+  background-size: cover;
+  background-position: center;
   position: relative;
   overflow: hidden;
 }

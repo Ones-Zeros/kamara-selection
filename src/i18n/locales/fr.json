@@ -1,7 +1,12 @@
 {
   "hero": {
-    "title": "Kamara Selection",
-    "subtitle": "Pierres précieuses premium du Sri Lanka",
+    "title": "Les meilleures gemmes de Ceylan",
+    "subtitle": "Saphirs, rubis et pierres rares direct mine pour joailliers et collectionneurs exigeants.",
+    "altTitles": [
+      "Les meilleures gemmes de Ceylan",
+      "Direct de Rathnapura",
+      "Saphirs, rubis, raretés"
+    ],
     "description": "Découvrez les plus belles pierres précieuses directement des mines de Rathnapura, la légendaire capitale des gemmes du Sri Lanka",
     "cta": "Explorer la collection"
   },
@@ -72,8 +77,19 @@
     "emailValue": "info@kamaraselections.com"
   },
   "footer": {
-    "copyright": "© 2026 Kamara Selection. Tous droits réservés.",
-    "tagline": "Pierres précieuses premium du Sri Lanka"
+    "copyright": "Kamara Selection. Tous droits réservés.",
+    "tagline": "Pierres précieuses premium du Sri Lanka",
+    "blurb": "Sourcing fiable directement de Rathnapura avec transparence, constance et service concierge.",
+    "menuTitle": "Navigation",
+    "contactTitle": "Contact",
+    "socialTitle": "Réseaux",
+    "links": {
+      "home": "Accueil",
+      "about": "À propos",
+      "media": "Médias",
+      "gemstones": "Collection",
+      "contact": "Contact"
+    }
   },
   "language": "Langue"
 }

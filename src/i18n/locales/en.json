@@ -1,7 +1,12 @@
 {
   "hero": {
-    "title": "Kamara Selection",
-    "subtitle": "Premium Gemstones from Sri Lanka",
+    "title": "Best Ceylon Gems",
+    "subtitle": "Direct-from-mine sapphires, rubies, and rare stones for discerning jewelers and collectors.",
+    "altTitles": [
+      "Best Ceylon Gems",
+      "Direct From Rathnapura",
+      "Sapphires, Rubies, Rarities"
+    ],
     "description": "Discover the finest gemstones directly from the mines of Rathnapura, Sri Lanka's legendary gem capital",
     "cta": "Explore Collection"
   },
@@ -79,8 +84,19 @@
     }
   },
   "footer": {
-    "copyright": "© 2026 Kamara Selection. All rights reserved.",
-    "tagline": "Premium Sri Lankan Gemstones"
+    "copyright": "Kamara Selection. All rights reserved.",
+    "tagline": "Premium Sri Lankan Gemstones",
+    "blurb": "Trusted sourcing directly from Rathnapura mines with full transparency, consistency, and concierge-level service.",
+    "menuTitle": "Navigate",
+    "contactTitle": "Contact",
+    "socialTitle": "Connect",
+    "links": {
+      "home": "Home",
+      "about": "About Us",
+      "media": "Media",
+      "gemstones": "Our Collection",
+      "contact": "Contact Us"
+    }
   },
   "language": "Language"
 }

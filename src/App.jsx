@@ -7,8 +7,10 @@ import Gemstones from './components/Gemstones'
 import MediaShowcase from './components/MediaShowcase'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import useSEO from './hooks/useSEO'
 
 function App() {
+  useSEO()
   return (
     <div className="app">
       <Navbar />

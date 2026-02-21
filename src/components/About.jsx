@@ -1,4 +1,7 @@
 import { useTranslation } from 'react-i18next';
+import partnersImage from '../assets/images/KamalandRalph.jpeg';
+import sapphireImage from '../assets/images/BlueSapphireGen.png';
+import mineImage from '../assets/images/mining1.jpg';
 import './About.css';
 
 const About = () => {
@@ -16,21 +19,46 @@ const About = () => {
       <div className="about-watermark" aria-hidden="true">HERITAGE</div>
 
       <div className="about-container">
-        <span className="about-tag">Our Story</span>
-        <h2 className="about-title">{t('about.title')}</h2>
-        <p className="about-description">{t('about.description')}</p>
-
-        <div className="features">
-          {features.map((feature, index) => (
-            <div key={index} className="feature-card">
-              <div className="feature-icon-wrapper">
-                <span className="feature-icon">{feature.icon}</span>
-              </div>
-              <h3 className="feature-title">{feature.title}</h3>
-              <p className="feature-description">{feature.description}</p>
+        <div className="about-grid">
+          <div className="about-visual">
+            <div className="about-photo about-photo--main">
+              <img src={mineImage} alt="Mining in Rathnapura" loading="lazy" />
             </div>
-          ))}
+            <div className="about-photo about-photo--stack">
+              <img src={partnersImage} alt="Kamara partners at site" loading="lazy" />
+            </div>
+            <div className="about-chip">{t('about.heritage')}</div>
+          </div>
+
+          <div className="about-copy">
+            <span className="about-tag">Our Story</span>
+            <h2 className="about-title">{t('about.title')}</h2>
+            <p className="about-description">{t('about.description')}</p>
+
+            <div className="features">
+              {features.map((feature, index) => (
+                <div key={index} className="feature-card">
+                  <div className="feature-icon-wrapper">
+                    <span className="feature-icon">{feature.icon}</span>
+                  </div>
+                  <div>
+                    <h3 className="feature-title">{feature.title}</h3>
+                    <p className="feature-description">{feature.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <div className="about-bar">
+              <div className="about-bar-label">{t('about.authentic')}</div>
+              <div className="about-bar-meter">
+                <span style={{ width: '92%' }} />
+              </div>
+              <img className="about-gem" src={sapphireImage} alt="Blue sapphire" loading="lazy" />
+            </div>
+          </div>
         </div>
+
       </div>
     </section>
   );

@@ -1,7 +1,12 @@
 {
   "hero": {
-    "title": "Kamara Selection",
-    "subtitle": "Premium edelstenen uit Sri Lanka",
+    "title": "De beste Ceylon-edelstenen",
+    "subtitle": "Saffieren, robijnen en zeldzame stenen direct uit de mijn voor veeleisende juweliers en verzamelaars.",
+    "altTitles": [
+      "De beste Ceylon-edelstenen",
+      "Direct uit Rathnapura",
+      "Saffieren, robijnen, rariteiten"
+    ],
     "description": "Ontdek de mooiste edelstenen rechtstreeks uit de mijnen van Rathnapura, de legendarische edelsteen hoofdstad van Sri Lanka",
     "cta": "Verken collectie"
   },
@@ -72,8 +77,19 @@
     "emailValue": "info@kamaraselections.com"
   },
   "footer": {
-    "copyright": "© 2026 Kamara Selection. Alle rechten voorbehouden.",
-    "tagline": "Premium Sri Lankaanse edelstenen"
+    "copyright": "Kamara Selection. Alle rechten voorbehouden.",
+    "tagline": "Premium Sri Lankaanse edelstenen",
+    "blurb": "Betrouwbare sourcing direct uit Rathnapura met transparantie, consistentie en persoonlijke service.",
+    "menuTitle": "Navigatie",
+    "contactTitle": "Contact",
+    "socialTitle": "Connect",
+    "links": {
+      "home": "Home",
+      "about": "Over ons",
+      "media": "Media",
+      "gemstones": "Collectie",
+      "contact": "Contact"
+    }
   },
   "language": "Taal"
 }

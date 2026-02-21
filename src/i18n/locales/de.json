@@ -1,7 +1,12 @@
 {
   "hero": {
-    "title": "Kamara Selection",
-    "subtitle": "Premium-Edelsteine aus Sri Lanka",
+    "title": "Beste Ceylon-Edelsteine",
+    "subtitle": "Saphire, Rubine und seltene Steine direkt aus der Mine für anspruchsvolle Juweliere und Sammler.",
+    "altTitles": [
+      "Beste Ceylon-Edelsteine",
+      "Direkt aus Rathnapura",
+      "Saphire, Rubine, Raritäten"
+    ],
     "description": "Entdecken Sie die feinsten Edelsteine direkt aus den Minen von Rathnapura, Sri Lankas legendärer Edelsteinhauptstadt",
     "cta": "Kollektion erkunden"
   },
@@ -72,8 +77,19 @@
     "emailValue": "info@kamaraselections.com"
   },
   "footer": {
-    "copyright": "© 2026 Kamara Selection. Alle Rechte vorbehalten.",
-    "tagline": "Premium sri-lankische Edelsteine"
+    "copyright": "Kamara Selection. Alle Rechte vorbehalten.",
+    "tagline": "Premium sri-lankische Edelsteine",
+    "blurb": "Verlässliche Beschaffung direkt aus Rathnapura mit Transparenz, Beständigkeit und persönlichem Service.",
+    "menuTitle": "Navigation",
+    "contactTitle": "Kontakt",
+    "socialTitle": "Vernetzen",
+    "links": {
+      "home": "Start",
+      "about": "Über uns",
+      "media": "Medien",
+      "gemstones": "Kollektion",
+      "contact": "Kontakt"
+    }
   },
   "language": "Sprache"
 }

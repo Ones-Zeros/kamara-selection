@@ -1,7 +1,12 @@
 {
   "hero": {
-    "title": "Kamara Selection",
-    "subtitle": "Premium ädelstenar från Sri Lanka",
+    "title": "De bästa Ceylon-stenarna",
+    "subtitle": "Safirer, rubiner och sällsynta stenar direkt från gruvan för kräsna juvelerare och samlare.",
+    "altTitles": [
+      "De bästa Ceylon-stenarna",
+      "Direkt från Rathnapura",
+      "Safirer, rubiner, rariteter"
+    ],
     "description": "Upptäck de finaste ädelstenarna direkt från gruvorna i Rathnapura, Sri Lankas legendariska ädelstenshuvudstad",
     "cta": "Utforska kollektion"
   },
@@ -72,8 +77,19 @@
     "emailValue": "info@kamaraselections.com"
   },
   "footer": {
-    "copyright": "© 2026 Kamara Selection. Alla rättigheter förbehållna.",
-    "tagline": "Premium sri lankesiska ädelstenar"
+    "copyright": "Kamara Selection. Alla rättigheter förbehållna.",
+    "tagline": "Premium sri lankesiska ädelstenar",
+    "blurb": "Pålitlig sourcing direkt från Rathnapura med transparens, jämn kvalitet och personlig service.",
+    "menuTitle": "Meny",
+    "contactTitle": "Kontakt",
+    "socialTitle": "Socialt",
+    "links": {
+      "home": "Hem",
+      "about": "Om oss",
+      "media": "Media",
+      "gemstones": "Kollektion",
+      "contact": "Kontakt"
+    }
   },
   "language": "Språk"
 }

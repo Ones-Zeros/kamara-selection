@@ -1,7 +1,12 @@
 {
   "hero": {
-    "title": "Kamara Selection",
-    "subtitle": "Gemas premium do Sri Lanka",
+    "title": "As melhores gemas do Ceilão",
+    "subtitle": "Safiras, rubis e pedras raras direto da mina para joalheiros e colecionadores exigentes.",
+    "altTitles": [
+      "As melhores gemas do Ceilão",
+      "Direto de Rathnapura",
+      "Safiras, rubis, raridades"
+    ],
     "description": "Descubra as melhores gemas diretamente das minas de Rathnapura, a lendária capital das gemas do Sri Lanka",
     "cta": "Explorar coleção"
   },
@@ -72,8 +77,19 @@
     "emailValue": "info@kamaraselections.com"
   },
   "footer": {
-    "copyright": "© 2026 Kamara Selection. Todos os direitos reservados.",
-    "tagline": "Gemas premium do Sri Lanka"
+    "copyright": "Kamara Selection. Todos os direitos reservados.",
+    "tagline": "Gemas premium do Sri Lanka",
+    "blurb": "Fornecimento confiável diretamente de Rathnapura com transparência, consistência e atendimento dedicado.",
+    "menuTitle": "Menu",
+    "contactTitle": "Contato",
+    "socialTitle": "Redes",
+    "links": {
+      "home": "Início",
+      "about": "Sobre nós",
+      "media": "Mídia",
+      "gemstones": "Coleção",
+      "contact": "Contato"
+    }
   },
   "language": "Idioma"
 }

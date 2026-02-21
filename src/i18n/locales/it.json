@@ -1,7 +1,12 @@
 {
   "hero": {
-    "title": "Kamara Selection",
-    "subtitle": "Gemme premium dallo Sri Lanka",
+    "title": "Le migliori gemme di Ceylon",
+    "subtitle": "Zaffiri, rubini e pietre rare direttamente dalla miniera per gioiellieri e collezionisti esigenti.",
+    "altTitles": [
+      "Le migliori gemme di Ceylon",
+      "Dirette da Rathnapura",
+      "Zaffiri, rubini, rarità"
+    ],
     "description": "Scopri le più belle gemme direttamente dalle miniere di Rathnapura, la leggendaria capitale delle gemme dello Sri Lanka",
     "cta": "Esplora collezione"
   },
@@ -72,8 +77,19 @@
     "emailValue": "info@kamaraselections.com"
   },
   "footer": {
-    "copyright": "© 2026 Kamara Selection. Tutti i diritti riservati.",
-    "tagline": "Gemme premium dello Sri Lanka"
+    "copyright": "Kamara Selection. Tutti i diritti riservati.",
+    "tagline": "Gemme premium dello Sri Lanka",
+    "blurb": "Aprovvigionamento affidabile direttamente da Rathnapura con trasparenza, costanza e servizio dedicato.",
+    "menuTitle": "Menu",
+    "contactTitle": "Contatti",
+    "socialTitle": "Social",
+    "links": {
+      "home": "Home",
+      "about": "Chi siamo",
+      "media": "Media",
+      "gemstones": "Collezione",
+      "contact": "Contatti"
+    }
   },
   "language": "Lingua"
 }
