@@ -25,9 +25,15 @@ const Contact = () => {
 
   return (
     <section className="contact" id="contact">
+      {/* Decorative watermark */}
+      <div className="contact-watermark" aria-hidden="true">CONTACT</div>
+
       <div className="contact-container">
-        <h2 className="contact-title">{t('contact.title')}</h2>
-        <p className="contact-description">{t('contact.description')}</p>
+        <div className="contact-header">
+          <span className="contact-tag">Get In Touch</span>
+          <h2 className="contact-title">{t('contact.title')}</h2>
+          <p className="contact-description">{t('contact.description')}</p>
+        </div>
         
         <div className="contact-content-wrapper">
           <div className="contact-info-column">

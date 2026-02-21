@@ -30,7 +30,7 @@ const Gemstones = () => {
       id: 'topaz',
       name: t('gemstones.topaz.name'),
       description: t('gemstones.topaz.description'),
-      image: '/images/gem-4.jpg', 
+      image: '/images/gem-4.jpg',
       color: '#ffcc00'
     },
     {
@@ -51,10 +51,16 @@ const Gemstones = () => {
 
   return (
     <section className="gemstones" id="gemstones">
+      {/* Decorative watermark */}
+      <div className="gemstones-watermark" aria-hidden="true">GEMS</div>
+
       <div className="gemstones-container">
-        <h2 className="gemstones-title">{t('gemstones.title')}</h2>
-        <p className="gemstones-subtitle">{t('gemstones.subtitle')}</p>
-        
+        <div className="gemstones-header">
+          <span className="gemstones-tag">Our Collection</span>
+          <h2 className="gemstones-title">{t('gemstones.title')}</h2>
+          <p className="gemstones-subtitle">{t('gemstones.subtitle')}</p>
+        </div>
+
         <div className="gemstones-grid">
           {gemstones.map((gem) => (
             <div key={gem.id} className="gemstone-card">
@@ -62,14 +68,12 @@ const Gemstones = () => {
                 {gem.image ? (
                   <img src={gem.image} alt={gem.name} className="gemstone-image" />
                 ) : (
-                  <div 
-                    className="gemstone-image" 
-                    style={{ background: gem.gradient, width: '100%', height: '100%' }}
-                  ></div>
+                  <div className="gemstone-image" style={{ background: `${gem.color}22` }} />
                 )}
-                <div className="gemstone-shine"></div>
+                <div className="gemstone-shine" />
               </div>
               <div className="gemstone-info">
+                <div className="gemstone-divider" />
                 <h3 className="gemstone-name">{gem.name}</h3>
                 <p className="gemstone-description">{gem.description}</p>
               </div>

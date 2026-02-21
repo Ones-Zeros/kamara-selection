@@ -10,10 +10,10 @@
   flex: 1;
 }
 
-.navbar {
-  position: absolute;
-  /* or fixed if it should stay on scroll */
-  top: 20px;
-  right: 20px;
-  z-index: 1000;
+/* Language switcher sits top-right, above navbar */
+.navbar-lang {
+  position: fixed;
+  top: 16px;
+  right: 2rem;
+  z-index: 1100;
 }
