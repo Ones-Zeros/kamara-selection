@@ -43,6 +43,20 @@
       "description": "Extraordinaria alejandrita que cambia de color, una de las gemas más raras de la naturaleza"
     }
   },
+  "media": {
+    "tag": "De la mina al tallado",
+    "title": "Vea el recorrido de nuestras gemas",
+    "subtitle": "Del grava del río al facetado de precisión; viva el proceso con clips y fotos cortos.",
+    "videosTitle": "Videos destacados",
+    "videosSubtitle": "Clips breves y en silencio que muestran nuestro trabajo diario.",
+    "galleryTitle": "Diario fotográfico",
+    "gallerySubtitle": "Momentos captados en nuestras minas y talleres.",
+    "highlights": [
+      "Imágenes en el terreno de Rathnapura con licencia para Kamara.",
+      "Lotes y piedras reales fotografiados por nuestro equipo.",
+      "Clips cortos, aptos para móvil, reproducibles con sonido si quiere."
+    ]
+  },
   "contact": {
     "title": "Póngase en contacto",
     "description": "¿Interesado en nuestras gemas? Contáctenos para discutir sus necesidades.",

@@ -43,6 +43,20 @@
       "description": "Extraordinária alexandrita que muda de cor, uma das gemas mais raras da natureza"
     }
   },
+  "media": {
+    "tag": "Da mina ao lapidado",
+    "title": "Veja a jornada das nossas gemas",
+    "subtitle": "Do cascalho do rio à lapidação de precisão: experimente o processo em clipes e fotos curtos.",
+    "videosTitle": "Destaques em vídeo",
+    "videosSubtitle": "Clipes curtos e silenciosos que mostram nosso trabalho diário.",
+    "galleryTitle": "Diário fotográfico",
+    "gallerySubtitle": "Momentos capturados em nossas minas e oficinas.",
+    "highlights": [
+      "Filmagens em campo em Rathnapura licenciadas para a Kamara.",
+      "Lotes e pedras reais fotografados por nossa equipe.",
+      "Clipes curtos, amigáveis ao mobile, com opção de áudio."
+    ]
+  },
   "contact": {
     "title": "Entre em contato",
     "description": "Interessado em nossas gemas? Contacte-nos para discutir suas necessidades.",

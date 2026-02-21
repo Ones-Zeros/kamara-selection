@@ -43,6 +43,20 @@
       "description": "Straordinaria alessandrite cangiante, una delle gemme più rare della natura"
     }
   },
+  "media": {
+    "tag": "Dalla miniera al taglio",
+    "title": "Guarda il viaggio delle nostre gemme",
+    "subtitle": "Dal ghiaione del fiume alla sfaccettatura di precisione: vivi il processo con brevi clip e foto.",
+    "videosTitle": "Video in evidenza",
+    "videosSubtitle": "Clip brevi e silenziose che mostrano il nostro lavoro quotidiano.",
+    "galleryTitle": "Diario fotografico",
+    "gallerySubtitle": "Attimi catturati nelle nostre miniere e laboratori.",
+    "highlights": [
+      "Riprese sul campo a Rathnapura con licenza per Kamara.",
+      "Lotti e pietre reali fotografati dal nostro team.",
+      "Clip brevi, adatti al mobile, riproducibili anche con audio."
+    ]
+  },
   "contact": {
     "title": "Contattaci",
     "description": "Interessato alle nostre gemme? Contattaci per discutere le tue esigenze.",

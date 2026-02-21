@@ -4,6 +4,7 @@ import LanguageSwitcher from './components/LanguageSwitcher'
 import Hero from './components/Hero'
 import About from './components/About'
 import Gemstones from './components/Gemstones'
+import MediaShowcase from './components/MediaShowcase'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -16,6 +17,7 @@ function App() {
       </div>
       <Hero />
       <About />
+      <MediaShowcase />
       <Gemstones />
       <Contact />
       <Footer />

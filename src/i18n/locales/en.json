@@ -43,6 +43,20 @@
       "description": "Extraordinary color-changing alexandrite, one of nature's rarest gems"
     }
   },
+  "media": {
+    "tag": "Field to Finishing",
+    "title": "See the journey of our gemstones",
+    "subtitle": "From riverbed gravel to precision faceting, experience the process through short clips and photos.",
+    "videosTitle": "Video highlights",
+    "videosSubtitle": "Short, muted clips you can play to glimpse our daily work.",
+    "galleryTitle": "Photo journal",
+    "gallerySubtitle": "Still moments from our mines and workshops.",
+    "highlights": [
+      "On-site mining footage from Rathnapura licensed for Kamara.",
+      "Real parcels and stones photographed by our team.",
+      "Short, mobile-friendly clips you can play with sound if desired."
+    ]
+  },
   "contact": {
     "title": "Get in Touch",
     "description": "Interested in our gemstones? Contact us to discuss your requirements.",

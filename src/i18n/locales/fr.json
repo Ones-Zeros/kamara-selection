@@ -43,6 +43,20 @@
       "description": "Alexandrite extraordinaire qui change de couleur, l'une des gemmes les plus rares de la nature"
     }
   },
+  "media": {
+    "tag": "Du gisement à la taille",
+    "title": "Voyez le parcours de nos pierres",
+    "subtitle": "Du gravier de rivière à la taille de précision, vivez le processus via de courts clips et photos.",
+    "videosTitle": "Moments vidéo",
+    "videosSubtitle": "Clips courts et muets pour entrevoir notre travail quotidien.",
+    "galleryTitle": "Journal photo",
+    "gallerySubtitle": "Moments saisis dans nos mines et ateliers.",
+    "highlights": [
+      "Images de terrain à Rathnapura sous licence pour Kamara.",
+      "Vrais lots et pierres photographiés par notre équipe.",
+      "Clips courts adaptés au mobile, avec son optionnel."
+    ]
+  },
   "contact": {
     "title": "Contactez-nous",
     "description": "Intéressé par nos pierres précieuses ? Contactez-nous pour discuter de vos besoins.",

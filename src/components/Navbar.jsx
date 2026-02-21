@@ -23,6 +23,7 @@ const Navbar = () => {
   const navLinks = [
     { label: 'Home',          id: 'home' },
     { label: 'About Us',      id: 'about' },
+    { label: 'Media',         id: 'media' },
     { label: 'Our Collection',id: 'gemstones' },
     { label: 'Contact Us',    id: 'contact' },
   ];
