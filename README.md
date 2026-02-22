@@ -74,6 +74,13 @@ To preview the production build locally:
 npm run preview
 ```
 
+## Deployment (Netlify)
+
+- Build command: `npm run build`
+- Publish directory: `dist`
+- SPA routing is preconfigured via `netlify.toml` and `public/_redirects` so client-side routes work on refresh.
+- No extra environment variables are required for default deployment.
+
 ## Project Structure
 
 ```
