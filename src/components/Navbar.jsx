@@ -1,7 +1,10 @@
 import { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import logo from '../assets/logo.png';
 import './Navbar.css';
 
 const Navbar = () => {
+  const { t } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -21,11 +24,11 @@ const Navbar = () => {
   };
 
   const navLinks = [
-    { label: 'Home',          id: 'home' },
-    { label: 'About Us',      id: 'about' },
-    { label: 'Media',         id: 'media' },
-    { label: 'Our Collection',id: 'gemstones' },
-    { label: 'Contact Us',    id: 'contact' },
+    { label: t('footer.links.home'),       id: 'home' },
+    { label: t('footer.links.about'),      id: 'about' },
+    { label: t('footer.links.media'),      id: 'media' },
+    { label: t('footer.links.gemstones'),  id: 'gemstones' },
+    { label: t('footer.links.contact'),    id: 'contact' },
   ];
 
   return (
@@ -33,7 +36,11 @@ const Navbar = () => {
       <div className="navbar-inner">
         {/* Logo / brand text */}
         <button className="navbar-brand" onClick={() => scrollTo('home')}>
-          Kamara Selection
+          <span className="navbar-logo-wrap">
+            <img src={logo} alt="Kamara Selection logo" className="navbar-logo" />
+            <span className="navbar-logo-tint" aria-hidden />
+          </span>
+          <span className="navbar-title">Kamara Selection</span>
         </button>
 
         {/* Desktop links */}

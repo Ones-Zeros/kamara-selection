@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import partnersImage from '../assets/images/KamalandRalph.jpeg';
+import partnersImage from '../assets/images/sortinggem.jpg';
 import sapphireImage from '../assets/images/BlueSapphireGen.png';
 import mineImage from '../assets/images/mining1.jpg';
 import './About.css';

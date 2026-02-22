@@ -84,6 +84,7 @@
   transition: transform 0.35s ease, box-shadow 0.35s ease;
   border: none;
   box-shadow: var(--card-shadow);
+  min-height: 360px;
 }
 
 .gemstone-card:hover {
@@ -149,4 +150,22 @@
 .gemstone-card:hover .gemstone-shine {
   left: 150%;
   transition: 0.75s ease-in-out;
+}
+
+@media (max-width: 640px) {
+  .gemstones {
+    padding: 70px 16px;
+  }
+
+  .gemstones-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gemstone-card {
+    min-height: 320px;
+  }
+
+  .gemstone-image-container {
+    height: 200px;
+  }
 }

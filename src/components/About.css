@@ -1,7 +1,10 @@
 /* ─── About Section ──────────────────────────────────────────── */
 .about {
   padding: 100px 20px;
-  background: var(--background-dark);
+  background:
+    radial-gradient(120% 120% at 10% 20%, rgba(255, 231, 200, 0.35), transparent),
+    radial-gradient(100% 100% at 80% 10%, rgba(180, 210, 255, 0.25), transparent),
+    linear-gradient(180deg, #fffaf3 0%, #f5f0ff 100%);
   color: var(--text-main);
   position: relative;
   overflow: hidden;

@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import logo from '../assets/kamara-logo.png';
 import partnersImage from '../assets/images/bannerImg4.png';
 import bannerImg2 from '../assets/images/bannerImg2.png';
 import bannerImg3 from '../assets/images/bannerImg3.png';
@@ -65,8 +64,6 @@ const Hero = () => {
 
       {/* Content */}
       <div className="hero-content">
-        <img className="hero-logo" src={logo} alt="Kamara Selections logo" />
-
         <span className="hero-tag">
           — {slides[currentSlide].label} —
         </span>
