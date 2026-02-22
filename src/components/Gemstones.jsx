@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import blueSapphireImage from '../assets/images/BlueSapphireGen.png';
 import rubyImage from '../assets/images/RubyGen.png';
-import emeraldImage from '../assets/images/EmeraldGen.png';
+import moonstoneImage from '../assets/images/moonstone.png';
 import topazImage from '../assets/images/YellowTopazGen.png';
 import catseyeImage from '../assets/images/CatseyeGen.png';
 import alexandriteImage from '../assets/images/AlexandriteGen.png';
@@ -26,11 +26,11 @@ const Gemstones = () => {
       color: '#e0115f'
     },
     {
-      id: 'emerald',
-      name: t('gemstones.emerald.name'),
-      description: t('gemstones.emerald.description'),
-      image: emeraldImage,
-      color: '#50c878'
+      id: 'moonstone',
+      name: t('gemstones.moonstone.name'),
+      description: t('gemstones.moonstone.description'),
+      image: moonstoneImage,
+      color: '#d8e9ff'
     },
     {
       id: 'topaz',

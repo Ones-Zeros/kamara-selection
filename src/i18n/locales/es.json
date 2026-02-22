@@ -31,9 +31,9 @@
       "name": "Rubí",
       "description": "Rubíes raros y preciosos con tonos rojos profundos del corazón de Sri Lanka"
     },
-    "emerald": {
-      "name": "Esmeralda",
-      "description": "Esmeraldas verdes vibrantes con brillo y transparencia notables"
+    "moonstone": {
+      "name": "Piedra de luna",
+      "description": "Piedras de luna lechosas con brillo azul suave de Sri Lanka"
     },
     "topaz": {
       "name": "Topacio amarillo",
@@ -77,7 +77,7 @@
     "emailValue": "info@kamaraselections.com"
   },
   "footer": {
-    "copyright": "Kamara Selection. Todos los derechos reservados.",
+    "copyright": "Kamara Selections. Todos los derechos reservados.",
     "tagline": "Gemas premium de Sri Lanka",
     "blurb": "Abastecimiento confiable directamente desde Rathnapura con transparencia, consistencia y servicio dedicado.",
     "menuTitle": "Menú",

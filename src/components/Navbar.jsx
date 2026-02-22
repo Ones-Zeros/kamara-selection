@@ -37,10 +37,10 @@ const Navbar = () => {
         {/* Logo / brand text */}
         <button className="navbar-brand" onClick={() => scrollTo('home')}>
           <span className="navbar-logo-wrap">
-            <img src={logo} alt="Kamara Selection logo" className="navbar-logo" />
+            <img src={logo} alt="Kamara Selections logo" className="navbar-logo" />
             <span className="navbar-logo-tint" aria-hidden />
           </span>
-          <span className="navbar-title">Kamara Selection</span>
+          <span className="navbar-title">Kamara Selections</span>
         </button>
 
         {/* Desktop links */}

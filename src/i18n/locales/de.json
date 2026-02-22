@@ -31,10 +31,6 @@
       "name": "Rubin",
       "description": "Seltene und kostbare Rubine mit tiefroter Farbe aus dem Herzen Sri Lankas"
     },
-    "emerald": {
-      "name": "Smaragd",
-      "description": "Lebhafte grüne Smaragde mit bemerkenswertem Glanz und Transparenz"
-    },
     "topaz": {
       "name": "Gelber Topas",
       "description": "Atemberaubende gelbe Topas-Edelsteine mit goldenem Glanz"
@@ -46,6 +42,10 @@
     "alexandrite": {
       "name": "Alexandrit",
       "description": "Außergewöhnlicher farbwechselnder Alexandrit, einer der seltensten Edelsteine der Natur"
+    },
+    "moonstone": {
+      "name": "Mondstein",
+      "description": "Milchige Mondsteine mit sanftem blauem Schimmer aus Sri Lanka"
     }
   },
   "media": {
@@ -77,7 +77,7 @@
     "emailValue": "info@kamaraselections.com"
   },
   "footer": {
-    "copyright": "Kamara Selection. Alle Rechte vorbehalten.",
+    "copyright": "Kamara Selections. Alle Rechte vorbehalten.",
     "tagline": "Premium sri-lankische Edelsteine",
     "blurb": "Verlässliche Beschaffung direkt aus Rathnapura mit Transparenz, Beständigkeit und persönlichem Service.",
     "menuTitle": "Navigation",

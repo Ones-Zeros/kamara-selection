@@ -31,9 +31,9 @@
       "name": "Ruby",
       "description": "Rare and precious rubies with deep red hues from the heart of Sri Lanka"
     },
-    "emerald": {
-      "name": "Emerald",
-      "description": "Vibrant green emeralds with remarkable brilliance and transparency"
+    "moonstone": {
+      "name": "Moonstone",
+      "description": "Milky adularescent moonstones with a soft blue sheen from Sri Lanka"
     },
     "topaz": {
       "name": "Yellow Topaz",
@@ -84,7 +84,7 @@
     }
   },
   "footer": {
-    "copyright": "Kamara Selection. All rights reserved.",
+    "copyright": "Kamara Selections. All rights reserved.",
     "tagline": "Premium Sri Lankan Gemstones",
     "blurb": "Trusted sourcing directly from Rathnapura mines with full transparency, consistency, and concierge-level service.",
     "menuTitle": "Navigate",

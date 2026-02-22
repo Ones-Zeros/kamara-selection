@@ -1,6 +1,6 @@
-# Kamara Selection
+# Kamara Selections
 
-A modern React JS website for Kamara Selection - A premium gem business from Sri Lanka.
+A modern React JS website for Kamara Selections - A premium gem business from Sri Lanka.
 
 ## Features
 
@@ -113,4 +113,4 @@ kamara-selection/
 
 ## License
 
-© 2026 Kamara Selection. All rights reserved.
+© 2026 Kamara Selections. All rights reserved.

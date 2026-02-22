@@ -31,10 +31,6 @@
       "name": "Rubis",
       "description": "Rubis rares et précieux aux teintes rouge profond du cœur du Sri Lanka"
     },
-    "emerald": {
-      "name": "Émeraude",
-      "description": "Émeraudes vertes vibrantes avec un éclat et une transparence remarquables"
-    },
     "topaz": {
       "name": "Topaze jaune",
       "description": "Magnifiques pierres de topaze jaune avec un éclat doré"
@@ -46,6 +42,10 @@
     "alexandrite": {
       "name": "Alexandrite",
       "description": "Alexandrite extraordinaire qui change de couleur, l'une des gemmes les plus rares de la nature"
+    },
+    "moonstone": {
+      "name": "Pierre de lune",
+      "description": "Pierres de lune laiteuses avec un doux reflet bleu du Sri Lanka"
     }
   },
   "media": {
@@ -77,7 +77,7 @@
     "emailValue": "info@kamaraselections.com"
   },
   "footer": {
-    "copyright": "Kamara Selection. Tous droits réservés.",
+    "copyright": "Kamara Selections. Tous droits réservés.",
     "tagline": "Pierres précieuses premium du Sri Lanka",
     "blurb": "Sourcing fiable directement de Rathnapura avec transparence, constance et service concierge.",
     "menuTitle": "Navigation",

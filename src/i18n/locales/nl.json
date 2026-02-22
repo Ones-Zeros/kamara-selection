@@ -31,10 +31,6 @@
       "name": "Robijn",
       "description": "Zeldzame en kostbare robijnen met dieprode tinten uit het hart van Sri Lanka"
     },
-    "emerald": {
-      "name": "Smaragd",
-      "description": "Levendige groene smaragden met opmerkelijke schittering en transparantie"
-    },
     "topaz": {
       "name": "Gele topaas",
       "description": "Prachtige gele topaas edelstenen met gouden schittering"
@@ -46,6 +42,10 @@
     "alexandrite": {
       "name": "Alexandriet",
       "description": "Buitengewone kleurveranderende alexandriet, een van de zeldzaamste edelstenen van de natuur"
+    },
+    "moonstone": {
+      "name": "Maansteen",
+      "description": "Melkachtige maanstenen met zachte blauwe gloed uit Sri Lanka"
     }
   },
   "media": {
@@ -77,7 +77,7 @@
     "emailValue": "info@kamaraselections.com"
   },
   "footer": {
-    "copyright": "Kamara Selection. Alle rechten voorbehouden.",
+    "copyright": "Kamara Selections. Alle rechten voorbehouden.",
     "tagline": "Premium Sri Lankaanse edelstenen",
     "blurb": "Betrouwbare sourcing direct uit Rathnapura met transparantie, consistentie en persoonlijke service.",
     "menuTitle": "Navigatie",

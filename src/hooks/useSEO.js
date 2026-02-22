@@ -16,7 +16,7 @@ const useSEO = () => {
   const { t, i18n } = useTranslation();
 
   useEffect(() => {
-    const title = `${t('hero.title')} | Kamara Selection`;
+    const title = `${t('hero.title')} | Kamara Selections`;
     const description = t('hero.subtitle');
     const url = 'https://www.kamaraselections.com/';
     const image = 'https://www.kamaraselections.com/images/gem-sapphire.jpg';

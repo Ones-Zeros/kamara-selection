@@ -31,10 +31,6 @@
       "name": "Rubino",
       "description": "Rubini rari e preziosi con sfumature rosse profonde dal cuore dello Sri Lanka"
     },
-    "emerald": {
-      "name": "Smeraldo",
-      "description": "Smeraldi verdi vivaci con brillantezza e trasparenza notevoli"
-    },
     "topaz": {
       "name": "Topazio giallo",
       "description": "Stupende pietre di topazio giallo con brillantezza dorata"
@@ -46,6 +42,10 @@
     "alexandrite": {
       "name": "Alessandrite",
       "description": "Straordinaria alessandrite cangiante, una delle gemme più rare della natura"
+    },
+    "moonstone": {
+      "name": "Pietra di luna",
+      "description": "Pietre di luna lattee con morbido riflesso blu dallo Sri Lanka"
     }
   },
   "media": {
@@ -77,7 +77,7 @@
     "emailValue": "info@kamaraselections.com"
   },
   "footer": {
-    "copyright": "Kamara Selection. Tutti i diritti riservati.",
+    "copyright": "Kamara Selections. Tutti i diritti riservati.",
     "tagline": "Gemme premium dello Sri Lanka",
     "blurb": "Aprovvigionamento affidabile direttamente da Rathnapura con trasparenza, costanza e servizio dedicato.",
     "menuTitle": "Menu",
