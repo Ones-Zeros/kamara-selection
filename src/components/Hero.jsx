@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import partnersImage from '../assets/images/bannerImg4.png';
-import bannerImg2 from '../assets/images/bannerImg2.png';
-import bannerImg3 from '../assets/images/bannerImg3.png';
+import partnersImage from '../assets/images/bannerImg4.jpg';
+import bannerImg2 from '../assets/images/bannerImg2.jpg';
+import bannerImg3 from '../assets/images/bannerImg3.jpg';
 import './Hero.css';
 
 const Hero = () => {

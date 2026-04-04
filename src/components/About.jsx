@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import partnersImage from '../assets/images/sortinggem.jpg';
-import sapphireImage from '../assets/images/BlueSapphireGen.png';
+import sapphireImage from '../assets/images/BlueSapphireGen.jpg';
 import mineImage from '../assets/images/mining1.jpg';
 import './About.css';
 
@@ -22,10 +22,10 @@ const About = () => {
         <div className="about-grid">
           <div className="about-visual">
             <div className="about-photo about-photo--main">
-              <img src={mineImage} alt="Mining in Rathnapura" loading="lazy" />
+              <img src={mineImage} alt="Mining in Rathnapura" loading="lazy" decoding="async" />
             </div>
             <div className="about-photo about-photo--stack">
-              <img src={partnersImage} alt="Kamara partners at site" loading="lazy" />
+              <img src={partnersImage} alt="Kamara partners at site" loading="lazy" decoding="async" />
             </div>
             <div className="about-chip">{t('about.heritage')}</div>
           </div>

@@ -46,7 +46,15 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <div className="footer-divider" />
-          <p className="footer-copyright">© {year} {t('footer.copyright')}</p>
+          <div className="footer-meta">
+            <p className="footer-copyright">© {year} {t('footer.copyright')}</p>
+            <p className="footer-credits">
+              Designed &amp; Developed by{' '}
+              <a href="https://onzdev.com/" target="_blank" rel="noreferrer">
+                Ones &amp; Zeros
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>

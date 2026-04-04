@@ -110,7 +110,12 @@ const MediaShowcase = () => {
             <div className="media-photo-stack">
               {photoJournal.map((photo, index) => (
                 <figure key={index} className="media-photo-card">
-                  <img src={photo.src} alt={photo.title} loading="lazy" />
+                  <img
+                    src={photo.src}
+                    alt={photo.title}
+                    loading="lazy"
+                    decoding="async"
+                  />
                   <figcaption>
                     <h4>{photo.title}</h4>
                     <p>{photo.subtitle}</p>

@@ -1,10 +1,10 @@
 import { useTranslation } from 'react-i18next';
-import blueSapphireImage from '../assets/images/BlueSapphireGen.png';
-import rubyImage from '../assets/images/RubyGen.png';
-import moonstoneImage from '../assets/images/moonstone.png';
-import topazImage from '../assets/images/YellowTopazGen.png';
-import catseyeImage from '../assets/images/CatseyeGen.png';
-import alexandriteImage from '../assets/images/AlexandriteGen.png';
+import blueSapphireImage from '../assets/images/BlueSapphireGen.jpg';
+import rubyImage from '../assets/images/RubyGen.jpg';
+import moonstoneImage from '../assets/images/moonstone.jpg';
+import topazImage from '../assets/images/YellowTopazGen.jpg';
+import catseyeImage from '../assets/images/CatseyeGen.jpg';
+import alexandriteImage from '../assets/images/AlexandriteGen.jpg';
 import './Gemstones.css';
 
 const Gemstones = () => {
@@ -72,7 +72,13 @@ const Gemstones = () => {
             <div key={gem.id} className="gemstone-card">
               <div className="gemstone-image-container">
                 {gem.image ? (
-                  <img src={gem.image} alt={gem.name} className="gemstone-image" />
+                  <img
+                    src={gem.image}
+                    alt={gem.name}
+                    className="gemstone-image"
+                    loading="lazy"
+                    decoding="async"
+                  />
                 ) : (
                   <div className="gemstone-image" style={{ background: `${gem.color}22` }} />
                 )}
