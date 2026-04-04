@@ -10,8 +10,8 @@ const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [prevSlide, setPrevSlide] = useState(null);
   const [phraseIndex, setPhraseIndex] = useState(0);
-  const phoneNumber = '+94 766684970';
-  const phoneHref = 'tel:+94766684970';
+  const phoneNumber = '+41 763789909';
+  const phoneHref = 'tel:+41763789909';
 
   const slides = [
     { image: bannerImg2, label: 'Blue Sapphire', color: '#0f52ba' },
@@ -78,7 +78,7 @@ const Hero = () => {
         <div className="hero-contact">
           <div>
             <p className="hero-contact-label">Primary Contact</p>
-            <p className="hero-contact-name">Kamal Addaraarachchi</p>
+            <p className="hero-contact-name">Ralph Amos</p>
           </div>
           <a className="hero-contact-btn" href={phoneHref}>
             Call {phoneNumber}

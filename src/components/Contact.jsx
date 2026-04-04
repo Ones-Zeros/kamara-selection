@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import './Contact.css';
+import ralphPortrait from '../assets/images/ralphamos.jpeg';
 
 const Contact = () => {
   const { t } = useTranslation();
@@ -38,12 +39,20 @@ const Contact = () => {
         <div className="contact-content-wrapper">
           <div className="contact-info-column">
             <div className="contact-highlight">
-              <div>
-                <p className="contact-highlight-label">Primary Contact</p>
-                <p className="contact-highlight-name">Kamal Addaraarachchi</p>
-                <a className="contact-highlight-phone" href={phoneHref}>
-                  +94 766684970
-                </a>
+              <div className="contact-highlight-person">
+                <img
+                  className="contact-highlight-photo"
+                  src={ralphPortrait}
+                  alt="Portrait of Ralph Amos"
+                  loading="lazy"
+                />
+                <div>
+                  <p className="contact-highlight-label">Primary Contact</p>
+                  <p className="contact-highlight-name">Ralph Amos</p>
+                  <a className="contact-highlight-phone" href={phoneHref}>
+                    {phoneValue}
+                  </a>
+                </div>
               </div>
               <div className="contact-highlight-actions">
                 <a className="contact-highlight-btn" href={phoneHref}>Call</a>

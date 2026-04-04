@@ -29,7 +29,7 @@ const Footer = () => {
             <h4 className="footer-heading">{t('footer.contactTitle')}</h4>
             <ul className="footer-links">
               <li><a href="mailto:info@kamaraselections.com">info@kamaraselections.com</a></li>
-              <li><a href="tel:+94766684970">+94 76 668 4970</a></li>
+              <li><a href="tel:+41763789909">+41 76 378 9909</a></li>
               <li><a href="https://www.kamaraselections.com" target="_blank" rel="noreferrer">kamaraselections.com</a></li>
             </ul>
           </div>

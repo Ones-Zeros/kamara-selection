@@ -88,6 +88,21 @@
   box-shadow: 0 10px 28px rgba(239, 186, 108, 0.18);
 }
 
+.contact-highlight-person {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.contact-highlight-photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 14px;
+  object-fit: cover;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.65);
+}
+
 .contact-highlight-label {
   font-size: 0.8rem;
   letter-spacing: 0.1em;
