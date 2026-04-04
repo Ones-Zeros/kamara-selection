@@ -35,30 +35,32 @@ const Contact = () => {
           <h2 className="contact-title">{t('contact.title')}</h2>
           <p className="contact-description">{t('contact.description')}</p>
         </div>
+
+        <div className="contact-primary-row">
+          <div className="contact-primary-person">
+            <img
+              className="contact-primary-photo"
+              src={ralphPortrait}
+              alt="Portrait of Ralph Amos"
+              loading="lazy"
+            />
+            <div>
+              <p className="contact-highlight-label">Primary Contact</p>
+              <p className="contact-highlight-name">Ralph Amos</p>
+              <a className="contact-highlight-phone" href={phoneHref}>
+                {phoneValue}
+              </a>
+            </div>
+          </div>
+          <div className="contact-primary-actions">
+            <a className="contact-highlight-btn" href={phoneHref}>Call</a>
+            <a className="contact-highlight-btn secondary" href={whatsappHref}>WhatsApp</a>
+            <a className="contact-highlight-btn ghost" href={emailHref}>Email</a>
+          </div>
+        </div>
         
         <div className="contact-content-wrapper">
           <div className="contact-info-column">
-            <div className="contact-highlight">
-              <div className="contact-highlight-person">
-                <img
-                  className="contact-highlight-photo"
-                  src={ralphPortrait}
-                  alt="Portrait of Ralph Amos"
-                  loading="lazy"
-                />
-                <div>
-                  <p className="contact-highlight-label">Primary Contact</p>
-                  <p className="contact-highlight-name">Ralph Amos</p>
-                  <a className="contact-highlight-phone" href={phoneHref}>
-                    {phoneValue}
-                  </a>
-                </div>
-              </div>
-              <div className="contact-highlight-actions">
-                <a className="contact-highlight-btn" href={phoneHref}>Call</a>
-                <a className="contact-highlight-btn secondary" href={whatsappHref}>WhatsApp</a>
-              </div>
-            </div>
             <h3>Contact Details</h3>
             
             <div className="contact-item">
