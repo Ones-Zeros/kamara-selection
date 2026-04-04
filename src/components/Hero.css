@@ -94,6 +94,53 @@
   animation: textRise 0.95s ease 0.25s both;
 }
 
+.hero-contact {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 0.35rem;
+  padding: 0.65rem 0.9rem;
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(6px);
+  animation: fadeDown 0.8s ease 0.4s both;
+}
+
+.hero-contact-label {
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.72);
+  margin: 0;
+}
+
+.hero-contact-name {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #fff;
+  margin: 2px 0 0;
+}
+
+.hero-contact-btn {
+  padding: 0.55rem 1rem;
+  background: var(--primary-color);
+  color: #1a1a2e;
+  border-radius: 10px;
+  font-weight: 800;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  box-shadow: 0 8px 18px rgba(239, 186, 108, 0.45);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.hero-contact-btn:hover {
+  background: var(--primary-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(239, 186, 108, 0.55);
+}
+
 /* ─── CTA Button – pill-shaped (Happy Tours style) ────────────── */
 .hero-cta {
   margin-top: 0.5rem;
@@ -231,5 +278,11 @@
 
   .hero-indicators {
     bottom: 24px;
+  }
+
+  .hero-contact {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
   }
 }

@@ -1,10 +1,10 @@
 import { useTranslation } from 'react-i18next';
 import blueSapphireImage from '../assets/images/BlueSapphireGen.jpg';
 import rubyImage from '../assets/images/RubyGen.jpg';
-import moonstoneImage from '../assets/images/moonstone.jpg';
+import moonstoneImage from '../assets/images/slmoonstone.jpeg';
 import topazImage from '../assets/images/YellowTopazGen.jpg';
 import catseyeImage from '../assets/images/CatseyeGen.jpg';
-import alexandriteImage from '../assets/images/AlexandriteGen.jpg';
+import alexandriteImage from '../assets/images/alexandritegreen.jpeg';
 import './Gemstones.css';
 
 const Gemstones = () => {
@@ -75,7 +75,7 @@ const Gemstones = () => {
                   <img
                     src={gem.image}
                     alt={gem.name}
-                    className="gemstone-image"
+                    className={`gemstone-image img-${gem.id}`}
                     loading="lazy"
                     decoding="async"
                   />

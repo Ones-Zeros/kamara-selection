@@ -1,6 +1,5 @@
 import './App.css'
 import Navbar from './components/Navbar'
-import LanguageSwitcher from './components/LanguageSwitcher'
 import Hero from './components/Hero'
 import About from './components/About'
 import Gemstones from './components/Gemstones'
@@ -14,9 +13,6 @@ function App() {
   return (
     <div className="app">
       <Navbar />
-      <div className="navbar-lang">
-        <LanguageSwitcher />
-      </div>
       <Hero />
       <About />
       <MediaShowcase />

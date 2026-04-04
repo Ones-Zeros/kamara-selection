@@ -10,6 +10,8 @@ const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [prevSlide, setPrevSlide] = useState(null);
   const [phraseIndex, setPhraseIndex] = useState(0);
+  const phoneNumber = '+94 766684970';
+  const phoneHref = 'tel:+94766684970';
 
   const slides = [
     { image: bannerImg2, label: 'Blue Sapphire', color: '#0f52ba' },
@@ -72,6 +74,16 @@ const Hero = () => {
           <span key={phraseIndex} className="hero-phrase">{phrases[phraseIndex]}</span>
         </h1>
         <p className="hero-subtitle">{t('hero.subtitle')}</p>
+
+        <div className="hero-contact">
+          <div>
+            <p className="hero-contact-label">Primary Contact</p>
+            <p className="hero-contact-name">Kamal Addaraarachchi</p>
+          </div>
+          <a className="hero-contact-btn" href={phoneHref}>
+            Call {phoneNumber}
+          </a>
+        </div>
 
         <button className="hero-cta" onClick={scrollToGemstones}>
           {t('hero.cta')}

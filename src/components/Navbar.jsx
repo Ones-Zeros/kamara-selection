@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import logo from '../assets/logo.jpg';
+import LanguageSwitcher from './LanguageSwitcher';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -40,17 +41,22 @@ const Navbar = () => {
             <img src={logo} alt="Kamara Selections logo" className="navbar-logo" />
             <span className="navbar-logo-tint" aria-hidden />
           </span>
-          <span className="navbar-title">Kamara Selections</span>
+          {/* <span className="navbar-title">Kamara Selections</span> */}
         </button>
 
-        {/* Desktop links */}
-        <nav className="navbar-links">
-          {navLinks.map(({ label, id }) => (
-            <button key={id} className="nav-link" onClick={() => scrollTo(id)}>
-              {label}
-            </button>
-          ))}
-        </nav>
+        {/* Desktop links + language switcher */}
+        <div className="navbar-right">
+          <nav className="navbar-links">
+            {navLinks.map(({ label, id }) => (
+              <button key={id} className="nav-link" onClick={() => scrollTo(id)}>
+                {label}
+              </button>
+            ))}
+          </nav>
+          <div className="navbar-lang-inline">
+            <LanguageSwitcher />
+          </div>
+        </div>
 
         {/* Mobile hamburger */}
         <button
@@ -64,6 +70,9 @@ const Navbar = () => {
 
       {/* Mobile dropdown */}
       <div className={`navbar-mobile ${menuOpen ? 'navbar-mobile--open' : ''}`}>
+        <div className="navbar-lang-mobile">
+          <LanguageSwitcher />
+        </div>
         {navLinks.map(({ label, id }) => (
           <button key={id} className="nav-link-mobile" onClick={() => scrollTo(id)}>
             {label}

@@ -37,6 +37,19 @@ const Contact = () => {
         
         <div className="contact-content-wrapper">
           <div className="contact-info-column">
+            <div className="contact-highlight">
+              <div>
+                <p className="contact-highlight-label">Primary Contact</p>
+                <p className="contact-highlight-name">Kamal Addaraarachchi</p>
+                <a className="contact-highlight-phone" href={phoneHref}>
+                  +94 766684970
+                </a>
+              </div>
+              <div className="contact-highlight-actions">
+                <a className="contact-highlight-btn" href={phoneHref}>Call</a>
+                <a className="contact-highlight-btn secondary" href={whatsappHref}>WhatsApp</a>
+              </div>
+            </div>
             <h3>Contact Details</h3>
             
             <div className="contact-item">
