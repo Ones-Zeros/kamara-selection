@@ -129,15 +129,6 @@
   gap: 12px;
 }
 
-.contact-highlight-photo {
-  width: 60px;
-  height: 60px;
-  border-radius: 14px;
-  object-fit: cover;
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
-  border: 2px solid rgba(255, 255, 255, 0.65);
-}
-
 .contact-highlight-label {
   font-size: 0.8rem;
   letter-spacing: 0.1em;
@@ -177,9 +168,19 @@
   color: var(--primary-dark);
 }
 
+.contact-person-links {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
 .contact-highlight-actions {
   display: flex;
   gap: 10px;
+}
+
+.contact-secondary-card {
+  margin-bottom: 2rem;
 }
 
 .contact-highlight-btn {

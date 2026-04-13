@@ -76,12 +76,15 @@ const Hero = () => {
         <p className="hero-subtitle">{t('hero.subtitle')}</p>
 
         <div className="hero-contact">
-          <div>
+          <div className="hero-contact-info">
             <p className="hero-contact-label">Contact Us</p>
             <p className="hero-contact-name">Ralph Amos</p>
+            <a className="hero-contact-number" href={phoneHref}>
+              {phoneNumber}
+            </a>
           </div>
           <a className="hero-contact-btn" href={phoneHref}>
-            Call {phoneNumber}
+            Call Now
           </a>
         </div>
 
