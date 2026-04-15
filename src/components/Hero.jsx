@@ -14,9 +14,9 @@ const Hero = () => {
   const phoneHref = 'tel:+41763789909';
 
   const slides = [
-    { image: bannerImg2, label: 'Blue Sapphire', color: '#0f52ba' },
-    { image: bannerImg3, label: 'Ceylon Collection', color: '#e0115f' },
-    { image: partnersImage, label: 'Mine Partners', color: '#d4a050' },
+    { image: bannerImg2, label: 'Sri Lankan Blue Sapphire', color: '#0f52ba' },
+    { image: bannerImg3, label: 'Ceylon Gem Collection', color: '#e0115f' },
+    { image: partnersImage, label: 'Rathnapura Mine Partners', color: '#d4a050' },
   ];
 
   const altTitles = t('hero.altTitles', { returnObjects: true });
@@ -30,7 +30,7 @@ const Hero = () => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
     }, 5500);
     return () => clearInterval(interval);
-  }, [currentSlide]);
+  }, [currentSlide, slides.length]);
 
   useEffect(() => {
     if (phrases.length <= 1) return undefined;
@@ -51,7 +51,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="hero">
+    <section className="hero" id="home">
       {/* Full-screen background slides */}
       {slides.map((slide, index) => (
         <div

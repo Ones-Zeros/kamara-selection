@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
+import SEOContent from './components/SEOContent'
 import Gemstones from './components/Gemstones'
 import MediaShowcase from './components/MediaShowcase'
 import Contact from './components/Contact'
@@ -13,11 +14,14 @@ function App() {
   return (
     <div className="app">
       <Navbar />
-      <Hero />
-      <About />
-      <MediaShowcase />
-      <Gemstones />
-      <Contact />
+      <main className="main-content">
+        <Hero />
+        <About />
+        <SEOContent />
+        <MediaShowcase />
+        <Gemstones />
+        <Contact />
+      </main>
       <Footer />
     </div>
   )

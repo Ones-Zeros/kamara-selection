@@ -22,10 +22,10 @@ const About = () => {
         <div className="about-grid">
           <div className="about-visual">
             <div className="about-photo about-photo--main">
-              <img src={mineImage} alt="Mining in Rathnapura" loading="lazy" decoding="async" />
+              <img src={mineImage} alt="Sri Lankan gem mining in Rathnapura" loading="lazy" decoding="async" />
             </div>
             <div className="about-photo about-photo--stack">
-              <img src={partnersImage} alt="Kamara partners at site" loading="lazy" decoding="async" />
+              <img src={partnersImage} alt="Kamara Selections partners at a Sri Lankan mining site" loading="lazy" decoding="async" />
             </div>
             <div className="about-chip">{t('about.heritage')}</div>
           </div>
@@ -54,7 +54,7 @@ const About = () => {
               <div className="about-bar-meter">
                 <span style={{ width: '92%' }} />
               </div>
-              <img className="about-gem" src={sapphireImage} alt="Blue sapphire" loading="lazy" />
+              <img className="about-gem" src={sapphireImage} alt="Sri Lankan blue sapphire gemstone" loading="lazy" />
             </div>
           </div>
         </div>

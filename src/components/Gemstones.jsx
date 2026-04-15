@@ -74,7 +74,7 @@ const Gemstones = () => {
                 {gem.image ? (
                   <img
                     src={gem.image}
-                    alt={gem.name}
+                    alt={`${gem.name} from Sri Lanka`}
                     className={`gemstone-image img-${gem.id}`}
                     loading="lazy"
                     decoding="async"

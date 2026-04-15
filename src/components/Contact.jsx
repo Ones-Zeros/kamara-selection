@@ -187,7 +187,7 @@ const Contact = () => {
             allowFullScreen="" 
             loading="lazy" 
             referrerPolicy="no-referrer-when-downgrade"
-            title="Google Map"
+            title="Kamara Selections location map in Sri Jayawardenepura Kotte"
           ></iframe>
         </div>
 
