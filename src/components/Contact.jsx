@@ -11,6 +11,7 @@ const Contact = () => {
   const emailValue = t('contact.emailValue');
   const secondaryName = t('contact.secondaryName');
   const secondaryPhoneValue = t('contact.secondaryPhoneValue');
+  const sriLankaPhoneNotice = t('contact.sriLankaPhoneNotice');
 
   // Helper to clean phone numbers for links
   const cleanPhone = (str) => str.replace(/[^\d+]/g, '');
@@ -55,6 +56,7 @@ const Contact = () => {
                 <a className="contact-highlight-phone" href={phoneHref}>
                   {phoneValue}
                 </a>
+                <p className="contact-availability-note">{sriLankaPhoneNotice}</p>
                 <a className="contact-highlight-email" href={emailHref}>
                   {emailValue}
                 </a>
@@ -114,6 +116,7 @@ const Contact = () => {
                 <a className="contact-link" href={phoneHref}>
                   {phoneValue}
                 </a>
+                <p className="contact-availability-note">{sriLankaPhoneNotice}</p>
               </div>
             </div>
 
