@@ -60,7 +60,7 @@ const About = () => {
         </div>
 
         <div className="about-expertise" id="best-sri-lankan-gem-stones" aria-labelledby="about-expertise-title">
-          <span className="about-expertise-tag">Gemstone Expertise</span>
+          <span className="about-tag about-tag--expertise">Gemstone Expertise</span>
           <h3 id="about-expertise-title" className="about-expertise-title">
             Best Sri Lankan Gem Stones for Jewelers and Collectors
           </h3>
@@ -69,40 +69,66 @@ const About = () => {
             Our mine-to-market model helps buyers access premium stones with clear sourcing and consistent quality standards.
           </p>
 
-          <ul className="about-expertise-points">
-            <li>Direct sourcing from Sri Lankan mining regions with strong field knowledge.</li>
-            <li>Hand-selected Ceylon sapphires, rubies, moonstones, and other rare stones.</li>
-            <li>Transparent communication for wholesale buyers, jewelers, and collectors.</li>
-            <li>Global buyer support by phone, email, and WhatsApp.</li>
-          </ul>
+          <div className="about-expertise-layout">
+            <div className="about-expertise-column">
+              <h4 className="about-expertise-subtitle">Why buyers choose Kamara</h4>
+              <ul className="about-expertise-points">
+                <li className="about-expertise-point">
+                  <span className="about-expertise-point-icon" aria-hidden="true">✓</span>
+                  <p>Direct sourcing from Sri Lankan mining regions with strong field knowledge.</p>
+                </li>
+                <li className="about-expertise-point">
+                  <span className="about-expertise-point-icon" aria-hidden="true">✓</span>
+                  <p>Hand-selected Ceylon sapphires, rubies, moonstones, and other rare stones.</p>
+                </li>
+                <li className="about-expertise-point">
+                  <span className="about-expertise-point-icon" aria-hidden="true">✓</span>
+                  <p>Transparent communication for wholesale buyers, jewelers, and collectors.</p>
+                </li>
+                <li className="about-expertise-point">
+                  <span className="about-expertise-point-icon" aria-hidden="true">✓</span>
+                  <p>Global buyer support by phone, email, and WhatsApp.</p>
+                </li>
+              </ul>
 
-          <p className="about-expertise-cta">
-            Explore our <a href="#gemstones">Sri Lankan gemstone collection</a> or <a href="#contact">speak with our team</a> for current parcel availability.
-          </p>
-
-          <div className="about-faq" id="faq">
-            <h4>FAQ about Sri Lankan Gem Stones</h4>
-
-            <article className="about-faq-item">
-              <h5>Why are Sri Lankan gemstones highly valued?</h5>
-              <p>
-                Sri Lankan gemstones are known for strong natural color, clarity, and trusted origin, especially stones mined in the Rathnapura region.
+              <p className="about-expertise-cta">
+                Explore our <a href="#gemstones">Sri Lankan gemstone collection</a> or <a href="#contact">speak with our team</a> for current parcel availability.
               </p>
-            </article>
+            </div>
 
-            <article className="about-faq-item">
-              <h5>Which gemstone types does Kamara Selections offer?</h5>
-              <p>
-                We offer blue sapphires, rubies, moonstones, yellow topaz, cat&apos;s eye, and alexandrite from Sri Lankan sources.
-              </p>
-            </article>
+            <div className="about-faq" id="faq">
+              <h4>FAQ about Sri Lankan Gem Stones</h4>
 
-            <article className="about-faq-item">
-              <h5>Can international buyers purchase from Kamara Selections?</h5>
-              <p>
-                Yes. We work with buyers worldwide and support inquiry handling through direct contact channels.
-              </p>
-            </article>
+              <article className="about-faq-item">
+                <div className="about-faq-head">
+                  <span className="about-faq-q" aria-hidden="true">Q1</span>
+                  <h5>Why are Sri Lankan gemstones highly valued?</h5>
+                </div>
+                <p>
+                  Sri Lankan gemstones are known for strong natural color, clarity, and trusted origin, especially stones mined in the Rathnapura region.
+                </p>
+              </article>
+
+              <article className="about-faq-item">
+                <div className="about-faq-head">
+                  <span className="about-faq-q" aria-hidden="true">Q2</span>
+                  <h5>Which gemstone types does Kamara Selections offer?</h5>
+                </div>
+                <p>
+                  We offer blue sapphires, rubies, moonstones, yellow topaz, cat&apos;s eye, and alexandrite from Sri Lankan sources.
+                </p>
+              </article>
+
+              <article className="about-faq-item">
+                <div className="about-faq-head">
+                  <span className="about-faq-q" aria-hidden="true">Q3</span>
+                  <h5>Can international buyers purchase from Kamara Selections?</h5>
+                </div>
+                <p>
+                  Yes. We work with buyers worldwide and support inquiry handling through direct contact channels.
+                </p>
+              </article>
+            </div>
           </div>
         </div>
       </div>

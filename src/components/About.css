@@ -224,93 +224,162 @@
 }
 
 .about-expertise {
-  margin-top: 42px;
-  background: rgba(255, 255, 255, 0.92);
-  border: 1px solid rgba(0, 0, 0, 0.06);
-  border-radius: 24px;
-  padding: 28px 30px;
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+  margin-top: 44px;
+  padding-top: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
   position: relative;
   z-index: 1;
 }
 
-.about-expertise-tag {
-  display: inline-block;
-  font-size: 0.74rem;
-  font-weight: 700;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--primary-color);
-  margin-bottom: 0.75rem;
+.about-tag--expertise {
+  margin-bottom: 0.6rem;
 }
 
 .about-expertise-title {
-  font-size: clamp(1.55rem, 2.8vw, 2.2rem);
+  font-size: clamp(1.5rem, 3vw, 2.1rem);
   line-height: 1.25;
   color: var(--secondary-color);
   margin-bottom: 0.9rem;
 }
 
 .about-expertise-intro {
+  max-width: 840px;
   color: var(--text-muted);
   line-height: 1.8;
-  margin-bottom: 0.9rem;
+  margin-bottom: 1.3rem;
+}
+
+.about-expertise-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.about-expertise-column {
+  display: grid;
+  gap: 12px;
+}
+
+.about-expertise-subtitle {
+  font-size: 1.08rem;
+  color: var(--secondary-color);
+  margin: 0;
 }
 
 .about-expertise-points {
-  list-style: disc;
-  padding-left: 1.1rem;
+  list-style: none;
+  padding: 0;
   display: grid;
-  gap: 0.45rem;
-  margin: 0 0 1rem;
+  gap: 10px;
+  margin: 0;
 }
 
-.about-expertise-points li {
+.about-expertise-point {
+  background: var(--card-bg);
+  border-radius: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: var(--card-shadow);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: start;
+  gap: 10px;
+  padding: 13px 14px;
+}
+
+.about-expertise-point-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(239, 186, 108, 0.22);
+  color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 800;
+  margin-top: 1px;
+}
+
+.about-expertise-point p {
   color: var(--text-main);
-  line-height: 1.7;
+  line-height: 1.65;
+  margin: 0;
 }
 
 .about-expertise-cta {
+  background: rgba(239, 186, 108, 0.12);
+  border: 1px solid rgba(239, 186, 108, 0.35);
+  border-radius: 12px;
+  padding: 10px 12px;
   line-height: 1.8;
   color: var(--text-main);
-  margin-bottom: 1.1rem;
+  margin-bottom: 0;
 }
 
 .about-expertise-cta a {
-  color: #0f52ba;
+  color: var(--secondary-color);
   font-weight: 700;
   text-decoration: underline;
   text-underline-offset: 3px;
+  text-decoration-color: var(--primary-color);
 }
 
 .about-expertise-cta a:hover {
-  color: #0a3c85;
+  color: #000;
 }
 
 .about-faq {
-  border-top: 1px solid rgba(0, 0, 0, 0.09);
-  padding-top: 1rem;
+  background: transparent;
 }
 
 .about-faq h4 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: var(--secondary-color);
-  margin-bottom: 0.75rem;
+  margin: 0 0 0.75rem;
 }
 
 .about-faq-item {
-  padding: 0.75rem 0;
+  background: var(--card-bg);
+  border-radius: 14px;
+  padding: 14px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: var(--card-shadow);
+  margin-bottom: 10px;
+}
+
+.about-faq-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 0.35rem;
+}
+
+.about-faq-q {
+  min-width: 28px;
+  height: 22px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: rgba(26, 26, 46, 0.08);
+  color: var(--secondary-color);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-faq-item h5 {
-  font-size: 1rem;
+  font-size: 0.98rem;
   color: var(--secondary-color);
-  margin-bottom: 0.3rem;
+  margin: 0;
 }
 
 .about-faq-item p {
   color: var(--text-muted);
   line-height: 1.7;
+  margin: 0;
 }
 
 @media (max-width: 900px) {
@@ -325,7 +394,12 @@
 
   .about-expertise {
     margin-top: 34px;
-    padding: 24px;
+    padding-top: 24px;
+  }
+
+  .about-expertise-layout {
+    grid-template-columns: 1fr;
+    gap: 18px;
   }
 }
 
@@ -343,6 +417,6 @@
   }
 
   .about-expertise {
-    padding: 20px 16px;
+    padding-top: 22px;
   }
 }
