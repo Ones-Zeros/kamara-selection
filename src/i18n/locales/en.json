@@ -1,11 +1,11 @@
 {
   "hero": {
     "title": "Best Sri Lankan Gem Stones",
-    "subtitle": "Direct-from-mine Sri Lankan gemstones including premium sapphires, rubies, and rare collector stones.",
+    "subtitle": "Rare Ceylon sapphires, rubies and collector stones — hand-selected and delivered direct from the legendary mines of Rathnapura.",
     "altTitles": [
-      "Best Sri Lankan Gem Stones",
+      "Finest Ceylon Gemstones",
       "Direct From Rathnapura",
-      "Premium Ceylon Gemstones"
+      "Sapphires, Rubies & Rare Stones"
     ],
     "description": "Discover the finest Sri Lankan gem stones directly from the mines of Rathnapura, Sri Lanka's legendary gem capital.",
     "cta": "Explore Collection"
@@ -21,31 +21,52 @@
     "authenticDesc": "Direct from source to you"
   },
   "gemstones": {
-    "title": "Our Gemstones",
-    "subtitle": "Explore our curated collection of the best Sri Lankan gemstones for fine jewelry and collectors.",
+    "tag": "The Ceylon Collection",
+    "title": "Treasures of the Island of Gems",
+    "subtitle": "For over 2,000 years Sri Lanka has produced the world's finest coloured stones. Every gem below is hand-selected from our Rathnapura mining partners.",
+    "hardnessLabel": "Mohs Hardness",
+    "originLabel": "Origin",
+    "ctaText": "Looking for a specific stone, cut or carat weight? Our team can source it directly from the mine.",
+    "ctaButton": "Request a Parcel",
     "sapphire": {
-      "name": "Blue Sapphire",
-      "description": "Ceylon blue sapphires are world-renowned for their exceptional color and clarity"
+      "name": "Ceylon Blue Sapphire",
+      "tagline": "The Royal Blue",
+      "description": "The stone that made Ceylon famous. Prized worldwide for its vivid cornflower-blue hue, glass-like clarity and brilliant lustre — the benchmark against which all blue sapphires are judged."
+    },
+    "yellowSapphire": {
+      "name": "Yellow Sapphire",
+      "tagline": "Pushparaga",
+      "description": "Known locally as Pushparaga, this golden-to-canary sapphire radiates warmth and light. A durable, highly sought-after stone treasured by collectors and in astrological jewellery alike."
+    },
+    "violetSapphire": {
+      "name": "Violet Sapphire",
+      "tagline": "Rare Colour",
+      "description": "An uncommon and captivating member of the corundum family, glowing in soft purple to deep violet tones. A distinctive Ceylon rarity for the discerning collector."
     },
     "ruby": {
-      "name": "Ruby",
-      "description": "Rare and precious rubies with deep red hues from the heart of Sri Lanka"
-    },
-    "moonstone": {
-      "name": "Moonstone",
-      "description": "Milky adularescent moonstones with a soft blue sheen from Sri Lanka"
-    },
-    "topaz": {
-      "name": "Yellow Topaz",
-      "description": "Stunning yellow topaz gemstones with golden brilliance"
+      "name": "Ceylon Ruby",
+      "tagline": "Pigeon Blood Red",
+      "description": "Rare and passionate, Sri Lankan rubies range from delicate pink to intense red. Sharing the corundum lineage of sapphire, they offer exceptional hardness and fire."
     },
     "catseye": {
-      "name": "Cat's Eye",
-      "description": "Rare chrysoberyl cat's eye with distinctive chatoyancy effect"
+      "name": "Cat's Eye Chrysoberyl",
+      "tagline": "Chatoyancy",
+      "description": "A phenomenal gem displaying a sharp, silvery band of light that glides across the surface like a cat's eye. Sri Lanka produces some of the finest honey-toned specimens on earth."
     },
     "alexandrite": {
       "name": "Alexandrite",
-      "description": "Extraordinary color-changing alexandrite, one of nature's rarest gems"
+      "tagline": "Colour Change",
+      "description": "One of nature's true wonders — emerald green by daylight, raspberry red under lamplight. Ceylon alexandrite is among the rarest and most valuable of all gemstones."
+    },
+    "moonstone": {
+      "name": "Blue Moonstone",
+      "tagline": "Adularescence",
+      "description": "Sri Lanka is the source of the world's finest moonstone. A milky body floats a soft, blue-white sheen that seems to glow from within — serene, luminous and unmistakable."
+    },
+    "topaz": {
+      "name": "Imperial Topaz",
+      "tagline": "Golden Fire",
+      "description": "A brilliant, warm golden stone with outstanding transparency and sparkle. Its rich amber-to-honey glow makes it a favourite for statement jewellery."
     }
   },
   "media": {

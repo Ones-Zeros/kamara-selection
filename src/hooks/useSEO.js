@@ -154,12 +154,14 @@ const useSEO = () => {
           '@id': `${SITE_URL}#gem-list`,
           name: 'Best Sri Lankan Gem Stones Collection',
           itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Blue Sapphire' },
-            { '@type': 'ListItem', position: 2, name: 'Ruby' },
-            { '@type': 'ListItem', position: 3, name: 'Moonstone' },
-            { '@type': 'ListItem', position: 4, name: 'Yellow Topaz' },
-            { '@type': 'ListItem', position: 5, name: 'Cat\'s Eye' },
-            { '@type': 'ListItem', position: 6, name: 'Alexandrite' }
+            { '@type': 'ListItem', position: 1, name: 'Ceylon Blue Sapphire' },
+            { '@type': 'ListItem', position: 2, name: 'Yellow Sapphire' },
+            { '@type': 'ListItem', position: 3, name: 'Violet Sapphire' },
+            { '@type': 'ListItem', position: 4, name: 'Ceylon Ruby' },
+            { '@type': 'ListItem', position: 5, name: 'Cat\'s Eye Chrysoberyl' },
+            { '@type': 'ListItem', position: 6, name: 'Alexandrite' },
+            { '@type': 'ListItem', position: 7, name: 'Blue Moonstone' },
+            { '@type': 'ListItem', position: 8, name: 'Imperial Topaz' }
           ]
         },
         {

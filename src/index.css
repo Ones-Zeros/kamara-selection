@@ -1,41 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-  /* ── Happy Tours palette ─────────────────────────────── */
-  --primary-color: #EFBA6C;
-  /* Gold – buttons, labels, accents */
-  --primary-dark: #d4a050;
-  /* Deeper gold for hover states    */
-  --secondary-color: #1a1a2e;
-  /* Dark charcoal – headings        */
-  --accent-green: #2ECC71;
-  /* Vibrant green – WhatsApp/icons  */
+  /* ── Ceylon Luxury palette ───────────────────────────── */
+  /* Champagne gold – accents, buttons, dividers */
+  --primary-color: #d9ab63;
+  --primary-light: #f0d6a0;
+  --primary-dark: #b6863b;
+  --gold-gradient: linear-gradient(135deg, #f3dca7 0%, #d9ab63 45%, #b6863b 100%);
+
+  /* Deep midnight / sapphire ink – headings, dark sections */
+  --secondary-color: #14152b;
+  --ink: #0c0d1c;
+  --ink-soft: #232541;
+
+  /* Jewel accents */
+  --sapphire: #1b3a8f;
+  --emerald: #1f7a5a;
 
   /* ── Backgrounds ─────────────────────────────────────── */
   --background-dark: #ffffff;
-  /* Main white background           */
-  --background-light: #F8FBFE;
-  /* Subtle off-white for alt sections*/
-  --background-dark-section: #1a1a2e;
-  /* Footer / very dark areas  */
+  --background-light: #faf7f1;
+  /* Warm ivory for alternating sections */
+  --background-cream: #f7f2e9;
+  --background-dark-section: #0c0d1c;
 
   /* ── Text ────────────────────────────────────────────── */
-  --text-main: #1a1a2e;
-  --text-muted: #6b7280;
+  --text-main: #1c1d2e;
+  --text-muted: #6a6d80;
   --text-white: #ffffff;
 
   /* ── Cards ───────────────────────────────────────────── */
   --card-bg: #ffffff;
-  --card-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
-  --card-shadow-hover: 0 20px 50px rgba(0, 0, 0, 0.14);
-  --border-color: rgba(0, 0, 0, 0.07);
+  --card-shadow: 0 10px 40px rgba(20, 21, 43, 0.07);
+  --card-shadow-hover: 0 26px 60px rgba(20, 21, 43, 0.16);
+  --border-color: rgba(20, 21, 43, 0.08);
 
   /* ── Typography ──────────────────────────────────────── */
   --font-main: 'Work Sans', system-ui, -apple-system, sans-serif;
+  --font-display: 'Cormorant Garamond', 'Times New Roman', Georgia, serif;
 
   /* ── Misc ────────────────────────────────────────────── */
   --transition-speed: 0.3s;
-  --radius-card: 20px;
+  --radius-card: 22px;
   --radius-pill: 50px;
 }
 
@@ -57,6 +63,8 @@ body {
   font-family: var(--font-main);
   line-height: 1.6;
   overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 a {
@@ -75,20 +83,58 @@ button {
   font-family: inherit;
 }
 
+/* ─── Display headings – elegant serif ───────────────────────── */
+.hero-title,
+.about-title,
+.gemstones-title,
+.media-title,
+.contact-title,
+.about-expertise-title,
+.gemstone-name {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: 0.005em;
+}
+
 /* ─── Section tag label (above headings) ─────────────────────── */
-.section-tag {
-  display: inline-block;
-  font-size: 0.75rem;
+.section-tag,
+.about-tag,
+.gemstones-tag,
+.media-tag,
+.contact-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.72rem;
   font-weight: 700;
-  letter-spacing: 0.22em;
+  letter-spacing: 0.28em;
   text-transform: uppercase;
-  color: var(--primary-color);
-  margin-bottom: 0.75rem;
+  color: var(--primary-dark);
+  margin-bottom: 0.85rem;
+}
+
+.about-tag::before,
+.gemstones-tag::before,
+.media-tag::before,
+.contact-tag::before,
+.section-tag::before {
+  content: '';
+  width: 26px;
+  height: 1.5px;
+  background: var(--gold-gradient);
+  display: inline-block;
+}
+
+/* Center the tag's leading rule inside centered headers */
+.gemstones-header .gemstones-tag,
+.media-header .media-tag,
+.contact-header .contact-tag {
+  justify-content: center;
 }
 
 /* ─── Scrollbar ──────────────────────────────────────────────── */
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -102,4 +148,9 @@ button {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary-dark);
+}
+
+::selection {
+  background: rgba(217, 171, 99, 0.28);
+  color: var(--ink);
 }

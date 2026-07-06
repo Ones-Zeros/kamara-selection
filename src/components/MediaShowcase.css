@@ -1,8 +1,9 @@
 /* ─── Media Showcase Section ───────────────────────────────── */
 .media {
-  padding: 100px 20px;
+  padding: 110px 20px;
   background:
-    linear-gradient(135deg, #f2f6fb 0%, #e8f0fa 50%, #f4f8ff 100%);
+    radial-gradient(80% 60% at 85% 0%, rgba(27, 58, 143, 0.06), transparent 60%),
+    linear-gradient(135deg, #f7f2e9 0%, #faf7f1 55%, #f4eee2 100%);
   color: var(--text-main);
   position: relative;
   overflow: hidden;
@@ -36,21 +37,12 @@
   margin-bottom: 3rem;
 }
 
-.media-tag {
-  display: inline-block;
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: var(--primary-color);
-  margin-bottom: 0.7rem;
-}
-
 .media-title {
-  font-size: clamp(2rem, 4vw, 3rem);
-  font-weight: 800;
+  font-size: clamp(2.3rem, 4.4vw, 3.4rem);
+  font-weight: 600;
   color: var(--secondary-color);
   margin-bottom: 0.8rem;
+  line-height: 1.12;
 }
 
 .media-subtitle {

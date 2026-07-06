@@ -71,21 +71,12 @@
   margin-bottom: 4rem;
 }
 
-.contact-tag {
-  display: inline-block;
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: var(--primary-color);
-  margin-bottom: 0.75rem;
-}
-
 .contact-title {
-  font-size: clamp(2rem, 4vw, 3rem);
-  font-weight: 800;
+  font-size: clamp(2.3rem, 4.4vw, 3.4rem);
+  font-weight: 600;
   color: var(--secondary-color);
   margin-bottom: 1rem;
+  line-height: 1.12;
 }
 
 .contact-description {
@@ -326,8 +317,8 @@
 /* Pill-shaped submit button */
 .submit-btn {
   padding: 1rem 2.5rem;
-  background: var(--primary-color);
-  color: var(--secondary-color);
+  background: var(--gold-gradient);
+  color: var(--ink);
   font-weight: 700;
   font-size: 1rem;
   letter-spacing: 0.05em;
@@ -335,13 +326,13 @@
   border-radius: var(--radius-pill);
   transition: all 0.3s ease;
   margin-top: 0.5rem;
-  box-shadow: 0 6px 20px rgba(239, 186, 108, 0.35);
+  box-shadow: 0 6px 20px rgba(217, 171, 99, 0.38);
 }
 
 .submit-btn:hover {
-  background: var(--primary-dark);
   transform: translateY(-3px);
-  box-shadow: 0 10px 28px rgba(239, 186, 108, 0.5);
+  filter: brightness(1.05);
+  box-shadow: 0 12px 30px rgba(217, 171, 99, 0.52);
 }
 
 /* Map */

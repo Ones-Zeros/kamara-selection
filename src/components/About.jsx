@@ -115,7 +115,7 @@ const About = () => {
                   <h5>Which gemstone types does Kamara Selections offer?</h5>
                 </div>
                 <p>
-                  We offer blue sapphires, rubies, moonstones, yellow topaz, cat&apos;s eye, and alexandrite from Sri Lankan sources.
+                  We offer Ceylon blue, yellow and violet sapphires, rubies, blue moonstone, cat&apos;s eye chrysoberyl, alexandrite, and imperial topaz from Sri Lankan sources.
                 </p>
               </article>
 

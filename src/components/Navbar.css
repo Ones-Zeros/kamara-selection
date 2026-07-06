@@ -144,23 +144,25 @@
 
 /* Last link as a pill CTA */
 .nav-link:last-child {
-    background: var(--primary-color);
-    color: var(--secondary-color);
+    background: var(--gold-gradient);
+    color: var(--ink);
     padding: 0.5rem 1.4rem;
+    box-shadow: 0 6px 18px rgba(217, 171, 99, 0.35);
 }
 
 .nav-link:last-child:hover {
-    background: var(--primary-dark);
-    color: var(--secondary-color);
+    color: var(--ink);
+    filter: brightness(1.05);
+    transform: translateY(-1px);
 }
 
 .navbar--scrolled .nav-link:last-child {
-    color: var(--secondary-color);
-    background: var(--primary-color);
+    color: var(--ink);
+    background: var(--gold-gradient);
 }
 
 .navbar--scrolled .nav-link:last-child:hover {
-    background: var(--primary-dark);
+    filter: brightness(1.05);
 }
 
 /* ─── Hamburger (mobile) ──────────────────────────────────────── */

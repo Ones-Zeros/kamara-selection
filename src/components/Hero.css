@@ -69,16 +69,13 @@
 }
 
 .hero-title {
-  font-size: clamp(3rem, 7vw, 4.8rem);
-  font-weight: 900;
-  line-height: 1.05;
+  font-size: clamp(3rem, 7.5vw, 5.4rem);
+  font-weight: 600;
+  line-height: 1.06;
   color: #ffffff;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  text-shadow:
-    0 6px 28px rgba(0, 0, 0, 0.55),
-    0 0 22px rgba(239, 186, 108, 0.35);
-  animation: textRise 0.9s ease 0.05s both, titleGlow 4.5s ease-in-out 1.2s infinite;
+  letter-spacing: 0.01em;
+  text-shadow: 0 6px 34px rgba(0, 0, 0, 0.5);
+  animation: textRise 0.9s ease 0.05s both;
 }
 
 .hero-phrase {
@@ -143,7 +140,7 @@
 
 .hero-contact-btn {
   padding: 0.55rem 1rem;
-  background: var(--primary-color);
+  background: var(--gold-gradient);
   color: #1a1a2e;
   border-radius: 10px;
   font-weight: 800;
@@ -167,20 +164,20 @@
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  background: var(--primary-color);
+  background: var(--gold-gradient);
   color: #1a1a2e;
   border-radius: var(--radius-pill);
   border: none;
   cursor: pointer;
   transition: all 0.3s ease;
   animation: fadeDown 0.8s ease 0.45s both;
-  box-shadow: 0 8px 24px rgba(239, 186, 108, 0.4);
+  box-shadow: 0 8px 24px rgba(217, 171, 99, 0.42);
 }
 
 .hero-cta:hover {
-  background: var(--primary-dark);
   transform: translateY(-3px);
-  box-shadow: 0 12px 32px rgba(239, 186, 108, 0.55);
+  box-shadow: 0 14px 36px rgba(217, 171, 99, 0.6);
+  filter: brightness(1.05);
 }
 
 /* ─── Slide indicators ───────────────────────────────────────── */
