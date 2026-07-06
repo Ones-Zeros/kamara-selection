@@ -1,75 +1,27 @@
 // ─── Central gemstone catalogue ──────────────────────────────────────
-// Language-neutral metadata for each authentic Sri Lankan (Ceylon) gem.
-// Display copy (name / tagline / description) lives in the i18n files under
-// `gemstones.<id>` so it can be translated and managed in one place.
+// Eight of the most popular gems found in Sri Lanka (Ceylon). Studio photos
+// live in assets/images/stones; display copy (name / tagline / description)
+// lives in the i18n files under `gemstones.<id>` for one-place management.
 
-import blueSapphireImage from '../assets/images/BlueSapphireGen.jpg';
-import yellowSapphireImage from '../assets/images/YellowSapphireGen.jpg';
-import violetSapphireImage from '../assets/images/Violet Sapphire.jpeg';
-import rubyImage from '../assets/images/RubyGen.jpg';
-import catseyeImage from '../assets/images/CatseyeGen.jpg';
-import alexandriteImage from '../assets/images/alexandritegreen.jpeg';
-import moonstoneImage from '../assets/images/slmoonstone.jpeg';
-import topazImage from '../assets/images/YellowTopazGen.jpg';
+import sapphireImage from '../assets/images/stones/sapphire.png';
+import rubyImage from '../assets/images/stones/ruby.png';
+import catseyeImage from '../assets/images/stones/cymophane-cats-eye.png';
+import alexandriteImage from '../assets/images/stones/alexandrite.png';
+import moonstoneImage from '../assets/images/stones/moonstone.png';
+import spinelImage from '../assets/images/stones/spinel.png';
+import aquamarineImage from '../assets/images/stones/aquamarine.png';
+import topazImage from '../assets/images/stones/topaz.png';
 
-// `accent` tints each card's badge/glow. `hardness` is the Mohs scale value.
+// `accent` tints each card's dot + hover glow, matched to the stone's colour.
 export const gemstones = [
-  {
-    id: 'sapphire',
-    image: blueSapphireImage,
-    accent: '#1e5fd0', // royal cornflower blue
-    hardness: '9',
-    focus: 'center center',
-  },
-  {
-    id: 'yellowSapphire',
-    image: yellowSapphireImage,
-    accent: '#edb400', // golden canary yellow
-    hardness: '9',
-    focus: 'center center',
-  },
-  {
-    id: 'violetSapphire',
-    image: violetSapphireImage,
-    accent: '#8a4bd6', // violet / purple
-    hardness: '9',
-    focus: 'center 45%',
-  },
-  {
-    id: 'ruby',
-    image: rubyImage,
-    accent: '#c41230', // pigeon-blood red
-    hardness: '9',
-    focus: 'center center',
-  },
-  {
-    id: 'catseye',
-    image: catseyeImage,
-    accent: '#a8871f', // honey-gold chrysoberyl
-    hardness: '8.5',
-    focus: 'center center',
-  },
-  {
-    id: 'alexandrite',
-    image: alexandriteImage,
-    accent: '#2f8f4e', // daylight emerald green
-    hardness: '8.5',
-    focus: 'center 45%',
-  },
-  {
-    id: 'moonstone',
-    image: moonstoneImage,
-    accent: '#9db6e6', // soft blue adularescence
-    hardness: '6',
-    focus: 'center 45%',
-  },
-  {
-    id: 'topaz',
-    image: topazImage,
-    accent: '#e0821a', // warm amber-gold
-    hardness: '8',
-    focus: 'center center',
-  },
+  { id: 'sapphire',    image: sapphireImage,    accent: '#2440e0' }, // royal blue
+  { id: 'ruby',        image: rubyImage,        accent: '#d0182e' }, // fiery red
+  { id: 'catseye',     image: catseyeImage,     accent: '#e2a90c' }, // golden chatoyant
+  { id: 'alexandrite', image: alexandriteImage, accent: '#c62766' }, // colour-change magenta
+  { id: 'moonstone',   image: moonstoneImage,   accent: '#8098d4' }, // periwinkle sheen
+  { id: 'spinel',      image: spinelImage,      accent: '#9068c8' }, // violet
+  { id: 'aquamarine',  image: aquamarineImage,  accent: '#23a6cf' }, // ocean cyan
+  { id: 'topaz',       image: topazImage,       accent: '#e8760f' }, // amber-gold
 ];
 
 export default gemstones;

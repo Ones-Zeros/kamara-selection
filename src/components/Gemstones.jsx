@@ -27,9 +27,8 @@ const Gemstones = () => {
               <div className="gemstone-image-container">
                 <img
                   src={gem.image}
-                  alt={`${t(`gemstones.${gem.id}.name`)} — premium Sri Lankan gemstone`}
+                  alt={`${t(`gemstones.${gem.id}.name`)} — Sri Lankan gemstone`}
                   className="gemstone-image"
-                  style={{ objectPosition: gem.focus }}
                   loading="lazy"
                   decoding="async"
                 />
@@ -43,17 +42,6 @@ const Gemstones = () => {
                   <h3 className="gemstone-name">{t(`gemstones.${gem.id}.name`)}</h3>
                 </div>
                 <p className="gemstone-description">{t(`gemstones.${gem.id}.description`)}</p>
-
-                <div className="gemstone-meta">
-                  <span className="gemstone-chip">
-                    <span className="gemstone-chip-label">{t('gemstones.hardnessLabel')}</span>
-                    <span className="gemstone-chip-value">{gem.hardness}</span>
-                  </span>
-                  <span className="gemstone-chip">
-                    <span className="gemstone-chip-label">{t('gemstones.originLabel')}</span>
-                    <span className="gemstone-chip-value">Ceylon</span>
-                  </span>
-                </div>
               </div>
             </article>
           ))}

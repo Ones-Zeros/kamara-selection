@@ -56,8 +56,8 @@
 /* ─── Gemstone Cards Grid ─────────────────────────────────────── */
 .gemstones-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 26px;
+  grid-template-columns: repeat(auto-fill, minmax(232px, 1fr));
+  gap: 22px;
   position: relative;
   z-index: 1;
 }
@@ -100,9 +100,10 @@
 }
 
 .gemstone-image-container {
-  height: 250px;
+  height: 168px;
   overflow: hidden;
   position: relative;
+  background: radial-gradient(circle at 50% 60%, #2b2d33 0%, #141518 100%);
 }
 
 .gemstone-image {
@@ -136,22 +137,21 @@
 }
 
 .gemstone-info {
-  padding: 1.5rem 1.6rem 1.7rem;
+  padding: 1rem 1.15rem 1.2rem;
   display: flex;
   flex-direction: column;
-  gap: 0.7rem;
-  flex: 1;
+  gap: 0.4rem;
 }
 
 .gemstone-head {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 9px;
 }
 
 .gemstone-dot {
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   background: var(--gem-accent);
   box-shadow: 0 0 0 4px color-mix(in srgb, var(--gem-accent) 18%, transparent);
@@ -159,44 +159,15 @@
 }
 
 .gemstone-name {
-  font-size: 1.55rem;
+  font-size: 1.35rem;
   color: var(--secondary-color);
   line-height: 1.1;
 }
 
 .gemstone-description {
   color: var(--text-muted);
-  font-size: 0.94rem;
-  line-height: 1.7;
-  flex: 1;
-}
-
-.gemstone-meta {
-  display: flex;
-  gap: 10px;
-  margin-top: 0.4rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--border-color);
-}
-
-.gemstone-chip {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-.gemstone-chip-label {
-  font-size: 0.66rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--text-muted);
-}
-
-.gemstone-chip-value {
-  font-size: 0.98rem;
-  font-weight: 700;
-  color: var(--secondary-color);
+  font-size: 0.88rem;
+  line-height: 1.5;
 }
 
 /* Shine shimmer on hover */

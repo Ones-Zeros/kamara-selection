@@ -23,50 +23,48 @@
   "gemstones": {
     "tag": "The Ceylon Collection",
     "title": "Treasures of the Island of Gems",
-    "subtitle": "For over 2,000 years Sri Lanka has produced the world's finest coloured stones. Every gem below is hand-selected from our Rathnapura mining partners.",
-    "hardnessLabel": "Mohs Hardness",
-    "originLabel": "Origin",
+    "subtitle": "Eight of the most sought-after gems found in Sri Lanka — hand-selected from our Rathnapura mining partners.",
     "ctaText": "Looking for a specific stone, cut or carat weight? Our team can source it directly from the mine.",
     "ctaButton": "Request a Parcel",
     "sapphire": {
-      "name": "Ceylon Blue Sapphire",
+      "name": "Blue Sapphire",
       "tagline": "The Royal Blue",
-      "description": "The stone that made Ceylon famous. Prized worldwide for its vivid cornflower-blue hue, glass-like clarity and brilliant lustre — the benchmark against which all blue sapphires are judged."
-    },
-    "yellowSapphire": {
-      "name": "Yellow Sapphire",
-      "tagline": "Pushparaga",
-      "description": "Known locally as Pushparaga, this golden-to-canary sapphire radiates warmth and light. A durable, highly sought-after stone treasured by collectors and in astrological jewellery alike."
-    },
-    "violetSapphire": {
-      "name": "Violet Sapphire",
-      "tagline": "Rare Colour",
-      "description": "An uncommon and captivating member of the corundum family, glowing in soft purple to deep violet tones. A distinctive Ceylon rarity for the discerning collector."
+      "description": "The royal blue that made Ceylon legendary."
     },
     "ruby": {
-      "name": "Ceylon Ruby",
-      "tagline": "Pigeon Blood Red",
-      "description": "Rare and passionate, Sri Lankan rubies range from delicate pink to intense red. Sharing the corundum lineage of sapphire, they offer exceptional hardness and fire."
+      "name": "Ruby",
+      "tagline": "Fiery Red",
+      "description": "Deep, fiery red of rare beauty."
     },
     "catseye": {
-      "name": "Cat's Eye Chrysoberyl",
+      "name": "Cat's Eye",
       "tagline": "Chatoyancy",
-      "description": "A phenomenal gem displaying a sharp, silvery band of light that glides across the surface like a cat's eye. Sri Lanka produces some of the finest honey-toned specimens on earth."
+      "description": "A living band of silvery light."
     },
     "alexandrite": {
       "name": "Alexandrite",
       "tagline": "Colour Change",
-      "description": "One of nature's true wonders — emerald green by daylight, raspberry red under lamplight. Ceylon alexandrite is among the rarest and most valuable of all gemstones."
+      "description": "Green by day, red by night."
     },
     "moonstone": {
-      "name": "Blue Moonstone",
+      "name": "Moonstone",
       "tagline": "Adularescence",
-      "description": "Sri Lanka is the source of the world's finest moonstone. A milky body floats a soft, blue-white sheen that seems to glow from within — serene, luminous and unmistakable."
+      "description": "A soft, glowing blue sheen."
+    },
+    "spinel": {
+      "name": "Spinel",
+      "tagline": "Violet Fire",
+      "description": "Vivid violet fire, a Ceylon prize."
+    },
+    "aquamarine": {
+      "name": "Aquamarine",
+      "tagline": "Ocean Blue",
+      "description": "The clear blue of the ocean."
     },
     "topaz": {
-      "name": "Imperial Topaz",
-      "tagline": "Golden Fire",
-      "description": "A brilliant, warm golden stone with outstanding transparency and sparkle. Its rich amber-to-honey glow makes it a favourite for statement jewellery."
+      "name": "Topaz",
+      "tagline": "Golden Amber",
+      "description": "Warm golden-amber brilliance."
     }
   },
   "media": {

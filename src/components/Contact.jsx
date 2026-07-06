@@ -116,7 +116,6 @@ const Contact = () => {
                 <a className="contact-link" href={phoneHref}>
                   {phoneValue}
                 </a>
-                <p className="contact-availability-note">{sriLankaPhoneNotice}</p>
               </div>
             </div>
 
