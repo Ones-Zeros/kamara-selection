@@ -173,7 +173,7 @@ const Contact = () => {
                 <input type="text" placeholder={t('contact.form.subject')} required />
               </div>
               <div className="form-group">
-                <textarea placeholder={t('contact.form.message')} rows="5" required></textarea>
+                <textarea placeholder={t('contact.form.message')} rows="3" required></textarea>
               </div>
               <button type="submit" className="submit-btn">{t('contact.form.submit')}</button>
             </form>

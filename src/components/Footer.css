@@ -10,52 +10,58 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.5rem;
+}
+
+/* Top row: brand/description on the left, link columns on the right */
+.footer-top {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  gap: 48px;
+  align-items: start;
 }
 
 .footer-brand {
-  text-align: center;
+  text-align: left;
+  max-width: 380px;
 }
 
-.footer-title {
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: #fff;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  margin-bottom: 0.4rem;
+.footer-logo-wrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.28);
+  margin-bottom: 18px;
+}
+
+.footer-logo {
+  height: 52px;
+  width: auto;
+  display: block;
 }
 
 .footer-blurb {
-  max-width: 760px;
-  margin: 0.5rem auto 0;
+  margin: 0;
   color: rgba(255, 255, 255, 0.7);
-  font-size: 0.98rem;
+  font-size: 0.96rem;
+  line-height: 1.7;
 }
 
 .footer-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 0;
-  column-gap: 24px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 56px;
 }
 
 .footer-column {
   background: transparent;
   border: none;
   border-radius: 0;
-  padding: 0 18px;
+  padding: 0;
   position: relative;
-}
-
-.footer-column:not(:last-child)::after {
-  content: '';
-  position: absolute;
-  right: 0;
-  top: 4px;
-  bottom: 4px;
-  width: 1px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.05));
 }
 
 .footer-heading {
@@ -136,6 +142,22 @@
   margin: 0;
 }
 
+@media (max-width: 768px) {
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .footer-grid {
+    justify-content: flex-start;
+    gap: 64px;
+  }
+
+  .footer-brand {
+    max-width: none;
+  }
+}
+
 @media (max-width: 640px) {
   .footer {
     padding: 60px 16px 40px;
@@ -154,9 +176,5 @@
 
   .footer-column {
     padding: 0;
-  }
-
-  .footer-column::after {
-    display: none;
   }
 }

@@ -74,12 +74,7 @@
     "videosTitle": "Video highlights",
     "videosSubtitle": "Short, muted clips you can play to glimpse our daily work.",
     "galleryTitle": "Photo journal",
-    "gallerySubtitle": "Still moments from our mines and workshops.",
-    "highlights": [
-      "On-site mining footage from Rathnapura licensed for Kamara.",
-      "Real parcels and stones photographed by our team.",
-      "Short, mobile-friendly clips you can play with sound if desired."
-    ]
+    "gallerySubtitle": "Still moments from our mines and workshops."
   },
   "contact": {
     "title": "Get in Touch",

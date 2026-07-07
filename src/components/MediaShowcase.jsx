@@ -58,8 +58,6 @@ const MediaShowcase = () => {
     }
   ];
 
-  const highlights = t('media.highlights', { returnObjects: true });
-
   return (
     <section className="media" id="media">
       <div className="media-watermark" aria-hidden="true">MEDIA</div>
@@ -125,17 +123,6 @@ const MediaShowcase = () => {
             </div>
           </div>
         </div>
-
-        {Array.isArray(highlights) && highlights.length > 0 && (
-          <div className="media-highlights">
-            {highlights.map((item, index) => (
-              <div key={index} className="media-highlight-card">
-                <div className="media-highlight-dot" />
-                <p>{item}</p>
-              </div>
-            ))}
-          </div>
-        )}
       </div>
     </section>
   );
