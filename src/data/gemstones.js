@@ -5,11 +5,11 @@
 
 import sapphireImage from '../assets/images/stones/sapphire.png';
 import rubyImage from '../assets/images/stones/ruby.png';
-import catseyeImage from '../assets/images/stones/cymophane-cats-eye.png';
-import alexandriteImage from '../assets/images/stones/alexandrite.png';
-import moonstoneImage from '../assets/images/stones/moonstone.png';
+import catseyeImage from '../assets/images/stones/cymophane-cats-eye-new.png';
+import alexandriteImage from '../assets/images/stones/alexandrite-new.png';
+import moonstoneImage from '../assets/images/stones/moonstone-new.png';
 import spinelImage from '../assets/images/stones/spinel.png';
-import aquamarineImage from '../assets/images/stones/aquamarine.png';
+import aquamarineImage from '../assets/images/stones/aquamarine-new.png';
 import topazImage from '../assets/images/stones/topaz.png';
 
 // `accent` tints each card's dot + hover glow, matched to the stone's colour.
