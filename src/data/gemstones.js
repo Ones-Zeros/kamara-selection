@@ -1,6 +1,6 @@
 // ─── Central gemstone catalogue ──────────────────────────────────────
 // Eight of the most popular gems found in Sri Lanka (Ceylon). Studio photos
-// live in assets/images/stones; display copy (name / tagline / description)
+// live in assets/images/stones; display copy (name/tagline/description)
 // lives in the i18n files under `gemstones.<id>` for one-place management.
 
 import sapphireImage from '../assets/images/stones/sapphire.png';
