@@ -65,6 +65,11 @@
       "name": "Topaz",
       "tagline": "Golden Amber",
       "description": "Warm golden-amber brilliance."
+    },
+    "rubyDiamond": {
+      "name": "Ruby",
+      "tagline": "Fiery Red",
+      "description": "Deep, fiery red of rare beauty."
     }
   },
   "media": {

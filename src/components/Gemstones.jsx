@@ -28,7 +28,7 @@ const Gemstones = () => {
                 <img
                   src={gem.image}
                   alt={`${t(`gemstones.${gem.id}.name`)} — Sri Lankan gemstone`}
-                  className="gemstone-image"
+                  className={`gemstone-image ${gem.class}`}
                   loading="lazy"
                   decoding="async"
                 />

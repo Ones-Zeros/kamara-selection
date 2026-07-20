@@ -46,6 +46,10 @@
     "moonstone": {
       "name": "Kamień księżycowy",
       "description": "Mleczne kamienie księżycowe z miękką niebieską poświatą ze Sri Lanki"
+    },
+    "rubyDiamond": {
+      "name": "Rubin",
+      "description": "Rzadkie i cenne rubiny z głębokimi czerwonymi odcieniami z serca Sri Lanki"
     }
   },
   "media": {
