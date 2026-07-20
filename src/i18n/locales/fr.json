@@ -46,6 +46,10 @@
     "moonstone": {
       "name": "Pierre de lune",
       "description": "Pierres de lune laiteuses avec un doux reflet bleu du Sri Lanka"
+    },
+    "rubyDiamond": {
+      "name": "Rubis",
+      "description": "Rubis rares et précieux aux teintes rouge profond du cœur du Sri Lanka"
     }
   },
   "media": {

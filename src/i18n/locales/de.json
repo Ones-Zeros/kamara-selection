@@ -46,6 +46,10 @@
     "moonstone": {
       "name": "Mondstein",
       "description": "Milchige Mondsteine mit sanftem blauem Schimmer aus Sri Lanka"
+    },
+    "rubyDiamond": {
+      "name": "Rubin",
+      "description": "Seltene und kostbare Rubine mit tiefroter Farbe aus dem Herzen Sri Lankas"
     }
   },
   "media": {

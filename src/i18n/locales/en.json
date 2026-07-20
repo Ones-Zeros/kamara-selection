@@ -57,7 +57,7 @@
       "description": "Vivid violet fire, a Ceylon prize."
     },
     "aquamarine": {
-      "name": "Aquamarine",
+      "name": "Cobalt spinel",
       "tagline": "Ocean Blue",
       "description": "The clear blue of the ocean."
     },
@@ -65,6 +65,11 @@
       "name": "Topaz",
       "tagline": "Golden Amber",
       "description": "Warm golden-amber brilliance."
+    },
+    "rubyDiamond": {
+      "name": "Ruby",
+      "tagline": "Fiery Red",
+      "description": "Deep, fiery red of rare beauty."
     }
   },
   "media": {

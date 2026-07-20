@@ -46,6 +46,10 @@
     "moonstone": {
       "name": "Pedra da lua",
       "description": "Pedras da lua leitosa com brilho azul suave do Sri Lanka"
+    },
+    "rubyDiamond": {
+      "name": "Rubi",
+      "description": "Rubis raros e preciosos com tons vermelhos profundos do coração do Sri Lanka"
     }
   },
   "media": {
