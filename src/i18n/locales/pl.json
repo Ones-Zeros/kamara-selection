@@ -29,23 +29,23 @@
     },
     "ruby": {
       "name": "Rubin",
-      "description": "Rzadkie i cenne rubiny z głębokimi czerwonymi odcieniami z serca Sri Lanki"
+      "description": "Głęboka, ognista czerwień o rzadkim pięknie."
     },
-    "topaz": {
-      "name": "Żółty topaz",
-      "description": "Oszałamiające żółte topazy o złotym blasku"
+    "ruby2": {
+      "name": "Rubin",
+      "description": "Bogata, jarząca się czerwień z serca kopalni."
     },
-    "catseye": {
-      "name": "Oko kota",
-      "description": "Rzadkie oko kota chryzoberylu z wyróżniającym się efektem chatoyancy"
+    "redSpinel": {
+      "name": "Czerwony spinel",
+      "description": "Olśniewający różowoczerwony ogień, rzadki skarb Cejlonu."
+    },
+    "cobaltSpinel": {
+      "name": "Spinel kobaltowy",
+      "description": "Intensywny kobaltowoniebieski blask, ceniony przez kolekcjonerów."
     },
     "alexandrite": {
       "name": "Aleksandryt",
-      "description": "Niezwykły aleksandryt zmieniający kolor, jeden z najrzadszych kamieni natury"
-    },
-    "moonstone": {
-      "name": "Kamień księżycowy",
-      "description": "Mleczne kamienie księżycowe z miękką niebieską poświatą ze Sri Lanki"
+      "description": "Zielony za dnia, czerwony nocą."
     }
   },
   "media": {

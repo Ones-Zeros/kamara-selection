@@ -23,7 +23,7 @@
   "gemstones": {
     "tag": "The Ceylon Collection",
     "title": "Treasures of the Island of Gems",
-    "subtitle": "Eight of the most sought-after gems found in Sri Lanka — hand-selected from our Rathnapura mining partners.",
+    "subtitle": "Some of the most sought-after gems found in Sri Lanka — hand-selected from our Rathnapura mining partners.",
     "ctaText": "Looking for a specific stone, cut or carat weight? Our team can source it directly from the mine.",
     "ctaButton": "Contact for Purchase",
     "sapphire": {
@@ -36,35 +36,25 @@
       "tagline": "Fiery Red",
       "description": "Deep, fiery red of rare beauty."
     },
-    "catseye": {
-      "name": "Cat's Eye",
-      "tagline": "Chatoyancy",
-      "description": "A living band of silvery light."
+    "ruby2": {
+      "name": "Ruby",
+      "tagline": "Pigeon's Blood",
+      "description": "A rich, glowing red from the heart of the mine."
+    },
+    "redSpinel": {
+      "name": "Red Spinel",
+      "tagline": "Vivid Rose-Red",
+      "description": "Brilliant rose-red fire, a rare Ceylon treasure."
+    },
+    "cobaltSpinel": {
+      "name": "Cobalt Spinel",
+      "tagline": "Electric Blue",
+      "description": "Intense cobalt-blue brilliance, prized by collectors."
     },
     "alexandrite": {
       "name": "Alexandrite",
       "tagline": "Colour Change",
       "description": "Green by day, red by night."
-    },
-    "moonstone": {
-      "name": "Moonstone",
-      "tagline": "Adularescence",
-      "description": "A soft, glowing blue sheen."
-    },
-    "spinel": {
-      "name": "Spinel",
-      "tagline": "Violet Fire",
-      "description": "Vivid violet fire, a Ceylon prize."
-    },
-    "aquamarine": {
-      "name": "Cobalt spinel",
-      "tagline": "Ocean Blue",
-      "description": "The clear blue of the ocean."
-    },
-    "topaz": {
-      "name": "Topaz",
-      "tagline": "Golden Amber",
-      "description": "Warm golden-amber brilliance."
     }
   },
   "media": {

@@ -29,23 +29,23 @@
     },
     "ruby": {
       "name": "Rubin",
-      "description": "Sällsynta och värdefulla rubiner med djupt röda nyanser från Sri Lankas hjärta"
+      "description": "Djupt, eldigt rött av sällsynt skönhet."
     },
-    "topaz": {
-      "name": "Gul topas",
-      "description": "Fantastiska gula topas ädelstenar med gyllene briljans"
+    "ruby2": {
+      "name": "Rubin",
+      "description": "Ett rikt, glödande rött från gruvans hjärta."
     },
-    "catseye": {
-      "name": "Kattöga",
-      "description": "Sällsynt krysoberyll kattöga med distinkt chatoyancy-effekt"
+    "redSpinel": {
+      "name": "Röd spinell",
+      "description": "Lysande rosenrött eld, en sällsynt Ceylon-skatt."
+    },
+    "cobaltSpinel": {
+      "name": "Koboltspinell",
+      "description": "Intensiv koboltblå lyster, uppskattad av samlare."
     },
     "alexandrite": {
       "name": "Alexandrit",
-      "description": "Extraordinär färgbytande alexandrit, en av naturens sällsyntaste ädelstenar"
-    },
-    "moonstone": {
-      "name": "Månsten",
-      "description": "Mjölkiga månstenar med mjuk blå glans från Sri Lanka"
+      "description": "Grön om dagen, röd om natten."
     }
   },
   "media": {

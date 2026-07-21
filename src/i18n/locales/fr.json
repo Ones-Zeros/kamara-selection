@@ -29,23 +29,23 @@
     },
     "ruby": {
       "name": "Rubis",
-      "description": "Rubis rares et précieux aux teintes rouge profond du cœur du Sri Lanka"
+      "description": "Un rouge profond et ardent d'une rare beauté."
     },
-    "topaz": {
-      "name": "Topaze jaune",
-      "description": "Magnifiques pierres de topaze jaune avec un éclat doré"
+    "ruby2": {
+      "name": "Rubis",
+      "description": "Un rouge riche et éclatant venu du cœur de la mine."
     },
-    "catseye": {
-      "name": "Œil de chat",
-      "description": "Rare œil de chat chrysobéryl avec un effet chatoyant distinctif"
+    "redSpinel": {
+      "name": "Spinelle rouge",
+      "description": "Un feu rouge rosé éclatant, un trésor rare de Ceylan."
+    },
+    "cobaltSpinel": {
+      "name": "Spinelle cobalt",
+      "description": "Un éclat bleu cobalt intense, prisé des collectionneurs."
     },
     "alexandrite": {
       "name": "Alexandrite",
-      "description": "Alexandrite extraordinaire qui change de couleur, l'une des gemmes les plus rares de la nature"
-    },
-    "moonstone": {
-      "name": "Pierre de lune",
-      "description": "Pierres de lune laiteuses avec un doux reflet bleu du Sri Lanka"
+      "description": "Verte le jour, rouge la nuit."
     }
   },
   "media": {

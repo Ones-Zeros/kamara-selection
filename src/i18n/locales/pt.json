@@ -29,23 +29,23 @@
     },
     "ruby": {
       "name": "Rubi",
-      "description": "Rubis raros e preciosos com tons vermelhos profundos do coração do Sri Lanka"
+      "description": "Um vermelho profundo e ardente de rara beleza."
     },
-    "topaz": {
-      "name": "Topázio amarelo",
-      "description": "Deslumbrantes pedras de topázio amarelo com brilho dourado"
+    "ruby2": {
+      "name": "Rubi",
+      "description": "Um vermelho rico e radiante do coração da mina."
     },
-    "catseye": {
-      "name": "Olho de gato",
-      "description": "Raro crisoberilo olho de gato com efeito chatoyante distintivo"
+    "redSpinel": {
+      "name": "Espinela vermelha",
+      "description": "Fogo vermelho rosado brilhante, um raro tesouro do Ceilão."
+    },
+    "cobaltSpinel": {
+      "name": "Espinela cobalto",
+      "description": "Intenso brilho azul cobalto, apreciado por colecionadores."
     },
     "alexandrite": {
       "name": "Alexandrita",
-      "description": "Extraordinária alexandrita que muda de cor, uma das gemas mais raras da natureza"
-    },
-    "moonstone": {
-      "name": "Pedra da lua",
-      "description": "Pedras da lua leitosa com brilho azul suave do Sri Lanka"
+      "description": "Verde de dia, vermelha à noite."
     }
   },
   "media": {
