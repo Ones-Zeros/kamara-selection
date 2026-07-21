@@ -28,28 +28,24 @@
       "description": "Ceylon blauwe saffieren zijn wereldwijd bekend om hun uitzonderlijke kleur en helderheid"
     },
     "ruby": {
-      "name": "Rode Spinel",
-      "description": "Zeldzame en kostbare robijnen met dieprode tinten uit het hart van Sri Lanka"
+      "name": "Robijn",
+      "description": "Diep, vurig rood van zeldzame schoonheid."
     },
-    "topaz": {
-      "name": "Gele topaas",
-      "description": "Prachtige gele topaas edelstenen met gouden schittering"
+    "ruby2": {
+      "name": "Robijn",
+      "description": "Een rijk, gloeiend rood uit het hart van de mijn."
     },
-    "catseye": {
-      "name": "Kattenoog",
-      "description": "Zeldzaam chrysoberyl kattenoog met onderscheidend chatoyancy-effect"
+    "redSpinel": {
+      "name": "Rode spinel",
+      "description": "Schitterend rozerood vuur, een zeldzame Ceylon-schat."
+    },
+    "cobaltSpinel": {
+      "name": "Kobaltspinel",
+      "description": "Intense kobaltblauwe schittering, geliefd bij verzamelaars."
     },
     "alexandrite": {
       "name": "Alexandriet",
-      "description": "Buitengewone kleurveranderende alexandriet, een van de zeldzaamste edelstenen van de natuur"
-    },
-    "moonstone": {
-      "name": "Maansteen",
-      "description": "Melkachtige maanstenen met zachte blauwe gloed uit Sri Lanka"
-    },
-    "rubyDiamond": {
-      "name": "Robijn",
-      "description": "Zeldzame en kostbare robijnen met dieprode tinten uit het hart van Sri Lanka"
+      "description": "Groen overdag, rood 's nachts."
     }
   },
   "media": {

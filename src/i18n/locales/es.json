@@ -28,28 +28,24 @@
       "description": "Los zafiros azules de Ceilán son mundialmente reconocidos por su excepcional color y claridad"
     },
     "ruby": {
-      "name": "Espinela Roja",
-      "description": "Rubíes raros y preciosos con tonos rojos profundos del corazón de Sri Lanka"
+      "name": "Rubí",
+      "description": "Un rojo profundo y ardiente de rara belleza."
     },
-    "moonstone": {
-      "name": "Piedra de luna",
-      "description": "Piedras de luna lechosas con brillo azul suave de Sri Lanka"
+    "ruby2": {
+      "name": "Rubí",
+      "description": "Un rojo intenso y radiante del corazón de la mina."
     },
-    "topaz": {
-      "name": "Topacio amarillo",
-      "description": "Impresionantes piedras de topacio amarillo con brillo dorado"
+    "redSpinel": {
+      "name": "Espinela roja",
+      "description": "Brillante fuego rojo rosado, un raro tesoro de Ceilán."
     },
-    "catseye": {
-      "name": "Ojo de gato",
-      "description": "Raro crisoberilo ojo de gato con efecto chatoyante distintivo"
+    "cobaltSpinel": {
+      "name": "Espinela cobalto",
+      "description": "Intenso brillo azul cobalto, apreciado por los coleccionistas."
     },
     "alexandrite": {
       "name": "Alejandrita",
-      "description": "Extraordinaria alejandrita que cambia de color, una de las gemas más raras de la naturaleza"
-    },
-    "rubyDiamond": {
-      "name": "Rubí",
-      "description": "Rubíes raros y preciosos con tonos rojos profundos del corazón de Sri Lanka"
+      "description": "Verde de día, roja de noche."
     }
   },
   "media": {

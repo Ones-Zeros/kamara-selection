@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import './MediaShowcase.css';
 
 import partnersImage from '../assets/images/KamalandRalph.jpeg';
-import violetSapphireImage from '../assets/images/Violet Sapphire.jpeg';
+import cobaltSpinelImage from '../assets/images/stones/cobalt-spinel.png';
 import parcelImage from '../assets/images/gemstones.jpeg';
 
 import gemMiningVideo from '../assets/vedios/gemmining.mp4';
@@ -47,9 +47,9 @@ const MediaShowcase = () => {
       src: partnersImage
     },
     {
-      title: 'Violet sapphire find',
-      subtitle: 'A vivid violet stone under daylight.',
-      src: violetSapphireImage
+      title: 'Cobalt spinel find',
+      subtitle: 'A vivid blue stone under daylight.',
+      src: cobaltSpinelImage
     },
     {
       title: 'Morning parcel',

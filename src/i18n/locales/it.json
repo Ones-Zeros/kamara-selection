@@ -28,28 +28,24 @@
       "description": "Gli zaffiri blu di Ceylon sono rinomati in tutto il mondo per il loro colore e la loro limpidezza eccezionali"
     },
     "ruby": {
-      "name": "Spinello Rosso",
-      "description": "Rubini rari e preziosi con sfumature rosse profonde dal cuore dello Sri Lanka"
+      "name": "Rubino",
+      "description": "Un rosso profondo e ardente di rara bellezza."
     },
-    "topaz": {
-      "name": "Topazio giallo",
-      "description": "Stupende pietre di topazio giallo con brillantezza dorata"
+    "ruby2": {
+      "name": "Rubino",
+      "description": "Un rosso intenso e brillante dal cuore della miniera."
     },
-    "catseye": {
-      "name": "Occhio di gatto",
-      "description": "Raro crisoberillo occhio di gatto con effetto gatteggiante distintivo"
+    "redSpinel": {
+      "name": "Spinello rosso",
+      "description": "Brillante fuoco rosso rosato, un raro tesoro di Ceylon."
+    },
+    "cobaltSpinel": {
+      "name": "Spinello cobalto",
+      "description": "Intensa brillantezza blu cobalto, amata dai collezionisti."
     },
     "alexandrite": {
       "name": "Alessandrite",
-      "description": "Straordinaria alessandrite cangiante, una delle gemme più rare della natura"
-    },
-    "moonstone": {
-      "name": "Pietra di luna",
-      "description": "Pietre di luna lattee con morbido riflesso blu dallo Sri Lanka"
-    },
-    "rubyDiamond": {
-      "name": "Rubino",
-      "description": "Rubini rari e preziosi con sfumature rosse profonde dal cuore dello Sri Lanka"
+      "description": "Verde di giorno, rossa di notte."
     }
   },
   "media": {

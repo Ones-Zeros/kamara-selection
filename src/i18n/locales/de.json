@@ -28,28 +28,24 @@
       "description": "Ceylon blaue Saphire sind weltweit bekannt für ihre außergewöhnliche Farbe und Klarheit"
     },
     "ruby": {
+      "name": "Rubin",
+      "description": "Tiefes, feuriges Rot von seltener Schönheit."
+    },
+    "ruby2": {
+      "name": "Rubin",
+      "description": "Ein sattes, leuchtendes Rot aus dem Herzen der Mine."
+    },
+    "redSpinel": {
       "name": "Roter Spinell",
-      "description": "Seltene und kostbare Rubine mit tiefroter Farbe aus dem Herzen Sri Lankas"
+      "description": "Leuchtend rosenrotes Feuer, ein seltener Ceylon-Schatz."
     },
-    "topaz": {
-      "name": "Gelber Topas",
-      "description": "Atemberaubende gelbe Topas-Edelsteine mit goldenem Glanz"
-    },
-    "catseye": {
-      "name": "Katzenauge",
-      "description": "Seltener Chrysoberyll-Katzenauge mit ausgeprägtem Chatoyance-Effekt"
+    "cobaltSpinel": {
+      "name": "Kobaltspinell",
+      "description": "Intensive kobaltblaue Brillanz, von Sammlern geschätzt."
     },
     "alexandrite": {
       "name": "Alexandrit",
-      "description": "Außergewöhnlicher farbwechselnder Alexandrit, einer der seltensten Edelsteine der Natur"
-    },
-    "moonstone": {
-      "name": "Mondstein",
-      "description": "Milchige Mondsteine mit sanftem blauem Schimmer aus Sri Lanka"
-    },
-    "rubyDiamond": {
-      "name": "Rubin",
-      "description": "Seltene und kostbare Rubine mit tiefroter Farbe aus dem Herzen Sri Lankas"
+      "description": "Grün bei Tag, rot bei Nacht."
     }
   },
   "media": {
